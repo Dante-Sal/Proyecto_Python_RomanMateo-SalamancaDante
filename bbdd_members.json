@@ -1,0 +1,60 @@
+{
+    "trainers":
+    [
+        {
+        "nombre":"Pedro Felipe",
+        "apellidos":"Gómez Bonilla",
+        "horario":[10,2,"a"],
+        "rutas":["Java",".Net"]
+        },
+
+        {
+        "nombre":"Juan Gabriel",
+        "apellidos":"Pinilla Juárez",
+        "horario":[6,10,"p"],
+        "rutas":["NodeJS"]
+        },
+
+        {
+        "nombre": "Laura",
+        "apellidos": "Martínez López",
+        "horario": [2,6,"p"],
+        "rutas": ["NodeJS", ".Net"]
+        },
+
+        {
+        "nombre": "Carlos Andrés",
+        "apellidos": "Ruiz Ortega",
+        "horario": [2,6,"p"],
+        "rutas": ["Java"]
+        },
+
+        {
+        "nombre": "Valentina",
+        "apellidos": "García Torres",
+        "horario": [10,2,"a"],
+        "rutas": ["NodeJS"]
+        },
+
+        {
+        "nombre": "Miguel Ángel",
+        "apellidos": "Hernández Silva",
+        "horario": [6,10,"a"],
+        "rutas": [".Net"]
+        },
+          
+        {
+        "nombre": "Daniela Fernanda",
+        "apellidos": "Castro Mendoza",
+        "horario": [6,10,"a"],
+        "rutas": ["Java", ".Net"]
+        },
+
+        {
+        "nombre":"Juan",
+        "apellidos":"Vesga Amaya",
+        "horario":[6,10,"p"],
+        "rutas":["Java","NodeJS"]
+        }
+    ]
+}
