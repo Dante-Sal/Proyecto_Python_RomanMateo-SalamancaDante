@@ -1,6 +1,5 @@
 {
-    "trainers":
-    [
+    "trainers":[
         {
         "nombre":"Pedro Felipe",
         "apellidos":"Gómez Bonilla",
@@ -55,6 +54,66 @@
         "apellidos":"Vesga Amaya",
         "horario":[6,10,"p"],
         "rutas":["Java","NodeJS"]
+        }
+    ],
+    "campers": [
+        {
+        "numIdentificacion": 1,
+        "nombre": "Mateo",
+        "apellidos": "Roman Camargo",
+        "direccion": "Calle 60 #1-111",
+        "acudiente": "Juana",
+        "telefono": "316 236 5244",
+        "estadoCamper": "Cursando",
+        "riesgo": "Bajo"
+        },
+        {
+        "numIdentificacion": 2,
+        "nombre": "Valeria",
+        "apellidos": "Martínez López",
+        "direccion": "Carrera 15 #45-78",
+        "acudiente": "Carlos",
+        "telefono": "310 987 6543",
+        "estadoCamper": "Cursando",
+        "riesgo": "Medio"
+        },
+        {
+        "numIdentificacion": 3,
+        "nombre": "Santiago",
+        "apellidos": "Gómez Herrera",
+        "direccion": "Calle 22 #18-50",
+        "acudiente": "Laura",
+        "telefono": "315 765 4321",
+        "estadoCamper": "Graduado",
+        "riesgo": "Bajo"
+        },
+        {
+        "numIdentificacion": 4,
+        "nombre": "Camila Alejandra",
+        "apellidos": "Rodríguez Peña",
+        "direccion": "Avenida 9 #100-23",
+        "acudiente": "Andrés",
+        "telefono": "317 852 9634",
+        "estadoCamper": "Retirado",
+        "riesgo": "Alto"
+        },
+        {
+        "numIdentificacion": 5,
+        "nombre": "Andrés",
+        "apellidos": "Fernández Castro",
+        "direccion": "Diagonal 30 #12-89",
+        "acudiente": "Marta",
+        "telefono": "312 369 7412",
+        "estadoCamper": "Cursando",
+        "riesgo": "Bajo"
+        }
+    ],
+    "coordinadores": [
+        {
+        "nombre": "Mariana",
+        "apellidos": "López Ramírez",
+        "usuario": "Mariana.Coordinador",
+        "contraseña": "contrasena"
         }
     ]
 }

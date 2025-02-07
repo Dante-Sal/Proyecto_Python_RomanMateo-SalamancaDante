@@ -9,4 +9,5 @@ def guardarMembersJSON(dic):
         json.dump(dic,outFile)
 dicMembers={}
 dicMembers=abrirMembersJSON()
-print(dicMembers)
+
+print (dicMembers["trainers"],["campers"],["coordinador"])
