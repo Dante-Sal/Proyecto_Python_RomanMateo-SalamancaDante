@@ -1,4 +1,5 @@
 import json
+from procesarCamper import procesarCamper
 
 def abrirMembersJSON():
     with open("./bbdd_members.json","r") as openFile:
@@ -10,4 +11,6 @@ def guardarMembersJSON(dic):
 dicMembers={}
 dicMembers=abrirMembersJSON()
 
-print (dicMembers["trainers"],["campers"],["coordinador"])
+
+
+print(dicMembers)
