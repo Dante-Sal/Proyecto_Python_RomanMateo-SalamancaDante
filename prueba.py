@@ -1,13 +1,13 @@
-{
+dicMembers={
     "trainers": [
         {
             "id": 1,
             "nombres": "Pedro Felipe",
             "apellidos": "Gómez Bonilla",
             "jornadasDisponibles": [
-                0,
-                0,
-                0,
+                1,
+                2,
+                3,
                 0
             ],
             "rutas": [
@@ -21,8 +21,8 @@
             "apellidos": "Pinilla Juárez",
             "jornadasDisponibles": [
                 1,
-                2,
-                3,
+                0,
+                0,
                 4
             ],
             "rutas": [
@@ -34,7 +34,7 @@
             "nombres": "Laura",
             "apellidos": "Martínez López",
             "jornadasDisponibles": [
-                1,
+                0,
                 2,
                 3,
                 4
@@ -50,9 +50,9 @@
             "apellidos": "Ruiz Ortega",
             "jornadasDisponibles": [
                 1,
-                2,
+                0,
                 3,
-                4
+                0
             ],
             "rutas": [
                 "Java"
@@ -63,9 +63,9 @@
             "nombres": "Valentina",
             "apellidos": "García Torres",
             "jornadasDisponibles": [
-                1,
+                0,
                 2,
-                3,
+                0,
                 4
             ],
             "rutas": [
@@ -196,7 +196,7 @@
         },
         {
             "id": 9,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Sofía",
             "apellidos": "Hernández Gómez",
@@ -280,7 +280,7 @@
         },
         {
             "id": 15,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Valentina",
             "apellidos": "Ortiz Morales",
@@ -295,7 +295,7 @@
         },
         {
             "id": 16,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Tomás",
             "apellidos": "Ruiz Delgado",
@@ -384,7 +384,7 @@
         },
         {
             "id": 23,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Mateo",
             "apellidos": "Fernández López",
@@ -429,7 +429,7 @@
         },
         {
             "id": 26,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Sebastián",
             "apellidos": "Gómez Torres",
@@ -474,7 +474,7 @@
         },
         {
             "id": 29,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Juan",
             "apellidos": "Díaz Martínez",
@@ -744,7 +744,7 @@
         },
         {
             "id": 48,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Camila",
             "apellidos": "Díaz Gómez",
@@ -789,7 +789,7 @@
         },
         {
             "id": 51,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Sofía",
             "apellidos": "Martínez Martínez",
@@ -894,7 +894,7 @@
         },
         {
             "id": 58,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Valeria",
             "apellidos": "Pérez López",
@@ -969,7 +969,7 @@
         },
         {
             "id": 63,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Alejandro",
             "apellidos": "Fernández López",
@@ -984,7 +984,7 @@
         },
         {
             "id": 64,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Valeria",
             "apellidos": "Ramírez Díaz",
@@ -1014,7 +1014,7 @@
         },
         {
             "id": 66,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Mariana",
             "apellidos": "Fernández Martínez",
@@ -1195,7 +1195,7 @@
         },
         {
             "id": 79,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Alejandro",
             "apellidos": "Pérez Martínez",
@@ -1309,7 +1309,7 @@
         },
         {
             "id": 87,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Alejandro",
             "apellidos": "Fernández Rodríguez",
@@ -1504,7 +1504,7 @@
         },
         {
             "id": 101,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Mateo",
             "apellidos": "Martínez García",
@@ -1549,7 +1549,7 @@
         },
         {
             "id": 104,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Sofía",
             "apellidos": "Gómez Ramírez",
@@ -1594,7 +1594,7 @@
         },
         {
             "id": 107,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Valeria",
             "apellidos": "Gómez Torres",
@@ -1804,7 +1804,7 @@
         },
         {
             "id": 122,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Alejandro",
             "apellidos": "Pérez Gómez",
@@ -1842,3 +1842,5 @@
         }
     ]
 }
+dicMembers["trainers"][0]["jornadasDisponibles"][0]=0
+print(dicMembers)

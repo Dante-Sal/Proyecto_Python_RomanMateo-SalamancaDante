@@ -22,4 +22,4 @@ def MostrarMenudeCoordinador():
     print("/MENU DE COORDINADOR /")
     print("//////////////////////")
     print("1. Asignar Notas")
-    print("2. Agregar nuevo trainer.")
+    print("2. Asignar grupos")

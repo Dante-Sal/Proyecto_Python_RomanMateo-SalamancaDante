@@ -1,7 +1,7 @@
 import json
-from procesarCamper import procesarCamper,procesarCamperIncompleto
+from procesarCamper import procesarCamper, procesarCamperIncompleto
 from menu import *
-from notasCoordinador import asignarNotas
+from funcionesCoordinador import asignarNotas, asignarGrupos
 
 def abrirMembersJSON():
     with open("./bbdd_members.json","r") as openFile:
@@ -15,30 +15,29 @@ def guardarMembersJSON(dic):
 dicMembers={}
 dicMembers=abrirMembersJSON()
 MostrarMenudeIngreso()
-ingresoUsuario = int(input("Como deseas ingresar?: "))
+ingresoUsuario=int(input("¿Cómo deseas ingresar?: "))
 match ingresoUsuario:
     case 1:
         MostrarMenudeCamper()
-        eleccionCamper = int(input("\nElige una opcion: "))
+        eleccionCamper=int(input("\nElige una opción: "))
         match eleccionCamper:
             case 1:
-                print("1. Inscribirse como usuario nuevo.")
-                print("2. Continuar con una inscripcion en progreso. ")
-                eleccionInscripcion = int(input("\nComo deseas inscribirte?: "))
-                if eleccionInscripcion == 1:
+                print("1. Inscribirse como usuario nuevo")
+                print("2. Continuar con una inscripción en progreso")
+                eleccionInscripcion=int(input("\n¿Cómo deseas inscribirte?: "))
+                if eleccionInscripcion==1:
                     procesarCamper()
-                elif eleccionInscripcion == 2:
+                elif eleccionInscripcion==2:
                     procesarCamperIncompleto()
-
-                
             case 2:
-                print
-    
+                print()
     case 2:
         MostrarMenudeTrainer()        
     case 3:
         MostrarMenudeCoordinador()
-        eleccionCoordinador = int(input("\nElige una opcion: "))
+        eleccionCoordinador=int(input("\nElige una opción: "))
         match eleccionCoordinador:
             case 1:
                 asignarNotas()
+            case 2:
+                asignarGrupos()
