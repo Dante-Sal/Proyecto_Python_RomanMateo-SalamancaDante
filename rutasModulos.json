@@ -1,0 +1,52 @@
+{
+    "rutas": [
+        {
+            "Java": [
+                "Intro",
+                "Python",
+                "HTML/CSS",
+                "Scrum",
+                "Git",
+                "JavaScript",
+                "Intro back",
+                "Intro BBDD",
+                "MySQL",
+                "Java",
+                "PostgreSQL",
+                "SpringBoot"
+            ]
+        },
+        {
+            "NodeJS": [
+                "Intro",
+                "Python",
+                "HTML/CSS",
+                "Scrum",
+                "Git",
+                "JavaScript",
+                "Intro back",
+                "Intro BBDD",
+                "MongoDB",
+                "JavaScript",
+                "MySQL",
+                "Express"
+            ]
+        },
+        {
+            ".Net": [
+                "Intro",
+                "Python",
+                "HTML/CSS",
+                "Scrum",
+                "Git",
+                "JavaScript",
+                "Intro back",
+                "Intro BBDD",
+                "MySQL",
+                "C#",
+                "PostgreSQL",
+                ".Net Core"
+            ]
+        }
+    ]
+}

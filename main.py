@@ -2,6 +2,7 @@ import json
 from procesarCamper import procesarCamper, procesarCamperIncompleto
 from menu import *
 from funcionesCoordinador import asignarNotas, asignarGrupos
+from crudCoordinador import crearCamperTrainerCoordinador, agregarRutaEntrenamiento
 
 def abrirMembersJSON():
     with open("./bbdd_members.json","r") as openFile:
@@ -41,3 +42,15 @@ match ingresoUsuario:
                 asignarNotas()
             case 2:
                 asignarGrupos()
+            case 3:
+                MostrarMenuCrudCoordinador()
+                eleccionCRUD=int(input("\n¿Qué deseas realizar?: "))
+                match eleccionCRUD:
+                    case 1:
+                        crearCamperTrainerCoordinador()
+                    case 2:
+                        agregarRutaEntrenamiento()
+                    case 3:
+                        print()
+                    case 4:
+                        print()

@@ -23,3 +23,13 @@ def MostrarMenudeCoordinador():
     print("//////////////////////")
     print("1. Asignar Notas")
     print("2. Asignar grupos")
+    print("3. Abrir Menu CRUD (Create, Read, Update, Delete)")
+def MostrarMenuCrudCoordinador ():
+    print("\n//////////////////////")
+    print("// CRUD COORDINADOR  //")
+    print("//////////////////////")
+    print("1. Agregar Camper/Trainer.")
+    print("2. Agregar ruta de entrenamiento.")
+    print("3. Suspender Camper/Trainer.")
+    print("4. Ver lista de Campers/Trainers.")
+    print("5. Modificar datos de Camper/Trainer.")
