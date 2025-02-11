@@ -29,17 +29,16 @@ dicSalonesGrupos=abrirSalonesGruposJSON()
 def asignarNotas(): 
     for i in range(len(dicMembers["campers"])):
         if dicMembers["campers"][i]["estado"]=="Inscrito":
-            print(f"Estudiante inscrito #{i+1}: {dicMembers['campers'][i]['nombres']} {dicMembers['campers'][i]['apellidos']}")
+            print(f"Camper inscrito #{i+1}: {dicMembers['campers'][i]['nombres']} {dicMembers['campers'][i]['apellidos']}")
     idCamper=int(input("Escribir: --- "))
-    notaAsignar=int(input(f"Escriba la nota a asignar al estudiante #{dicMembers['campers'][idCamper-1]['id']} ({dicMembers['campers'][idCamper-1]['nombres']} {dicMembers['campers'][idCamper-1]['apellidos']}): --- "))
+    notaAsignar=int(input(f"Escriba la nota a asignar al camper #{dicMembers['campers'][idCamper-1]['id']} ({dicMembers['campers'][idCamper-1]['nombres']} {dicMembers['campers'][idCamper-1]['apellidos']}): --- "))
     if notaAsignar >= 60:
         dicMembers['campers'][idCamper-1]['estado']="Aprobado"
-        print(f"Estudiante {dicMembers['campers'][idCamper-1]['nombres']} {dicMembers['campers'][idCamper-1]['apellidos']} aprobado")
+        print(f"Camper {dicMembers['campers'][idCamper-1]['nombres']} {dicMembers['campers'][idCamper-1]['apellidos']} aprobado")
     else:
-        print(f"Estudiante {dicMembers['campers'][idCamper-1]['nombres']} {dicMembers['campers'][idCamper-1]['apellidos']} no aprobado")
+        print(f"Camper {dicMembers['campers'][idCamper-1]['nombres']} {dicMembers['campers'][idCamper-1]['apellidos']} no aprobado")
     guardarMembersJSON(dicMembers)
 
-#"á", "é", "í", "ó", "ú" 
 #Crea función
 def asignarGrupos():
     now=datetime.now()
@@ -58,9 +57,9 @@ def asignarGrupos():
                 dicSalonesGrupos["grupos"]["y"]={}
             elif q==0 and p==3:
                 dicSalonesGrupos["grupos"]["z"]={}
-                guardarSalonesGruposJSON(dicSalonesGrupos)
+            guardarSalonesGruposJSON(dicSalonesGrupos)
             #Si el camper está aprobado y su jornada coincide con la actual...
-            if dicMembers["campers"][q]["estado"]=="Aprobado" and dicMembers["campers"][q]["jornada"]==p+1:
+            if dicMembers["campers"][q]["estado"]=="Cursando" and dicMembers["campers"][q]["jornada"]==p+1:
                 #Si es la jornada 1, añade el camper a w, si w tiene menos o igual a 33 campers
                 if p==0:
                     if len(w)<33:
@@ -183,7 +182,8 @@ def asignarGrupos():
                         break
 
                     else:
-                        del(dicSalonesGrupos["grupos"]["w"])
+                        if i==len(dicMembers["trainers"])-1:
+                            del(dicSalonesGrupos["grupos"]["w"])
 
             else:
                 del(dicSalonesGrupos["grupos"]["w"])
@@ -261,7 +261,8 @@ def asignarGrupos():
                         break
 
                     else:
-                        del(dicSalonesGrupos["grupos"]["x"])
+                        if i==len(dicMembers["trainers"])-1:
+                            del(dicSalonesGrupos["grupos"]["x"])
             
             else:
                 del(dicSalonesGrupos["grupos"]["x"])
@@ -339,7 +340,8 @@ def asignarGrupos():
                         break
 
                     else:
-                        del(dicSalonesGrupos["grupos"]["y"])
+                        if i==len(dicMembers["trainers"])-1:
+                            del(dicSalonesGrupos["grupos"]["y"])
             
             else:
                 del(dicSalonesGrupos["grupos"]["y"])
@@ -417,7 +419,8 @@ def asignarGrupos():
                         break
 
                     else:
-                        del(dicSalonesGrupos["grupos"]["z"])
+                        if i==len(dicMembers["trainers"])-1:
+                            del(dicSalonesGrupos["grupos"]["z"])
             
             else:
                 del(dicSalonesGrupos["grupos"]["z"])

@@ -3,12 +3,12 @@
         {
             "id": 1,
             "nombres": "Pedro Felipe",
-            "apellidos": "Gómez Bonilla",
+            "apellidos": "Gomez Bonilla",
             "jornadasDisponibles": [
-                1,
-                2,
-                3,
-                4
+                0,
+                0,
+                0,
+                0
             ],
             "rutas": [
                 "Java",
@@ -18,11 +18,11 @@
         {
             "id": 2,
             "nombres": "Juan Gabriel",
-            "apellidos": "Pinilla Juárez",
+            "apellidos": "Pinilla Juarez",
             "jornadasDisponibles": [
-                1,
-                2,
-                3,
+                0,
+                0,
+                0,
                 4
             ],
             "rutas": [
@@ -32,12 +32,12 @@
         {
             "id": 3,
             "nombres": "Laura",
-            "apellidos": "Martínez López",
+            "apellidos": "Martinez Lopez",
             "jornadasDisponibles": [
                 1,
                 2,
                 3,
-                4
+                0
             ],
             "rutas": [
                 "NodeJS",
@@ -46,13 +46,13 @@
         },
         {
             "id": 4,
-            "nombres": "Carlos Andrés",
+            "nombres": "Carlos Andres",
             "apellidos": "Ruiz Ortega",
             "jornadasDisponibles": [
-                1,
+                0,
                 2,
                 3,
-                4
+                0
             ],
             "rutas": [
                 "Java"
@@ -61,12 +61,12 @@
         {
             "id": 5,
             "nombres": "Valentina",
-            "apellidos": "García Torres",
+            "apellidos": "Garcia Torres",
             "jornadasDisponibles": [
                 1,
-                2,
-                3,
-                4
+                0,
+                0,
+                0
             ],
             "rutas": [
                 "NodeJS"
@@ -91,25 +91,25 @@
         },
         {
             "id": 2,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Medio",
             "nombres": "Valeria",
-            "apellidos": "Martínez López",
+            "apellidos": "Martinez Lopez",
             "direccion": "Carrera 15 #45-78",
             "telefono": "310 987 6543",
             "acudiente": {
                 "nombres": "Carlos Manuel",
-                "apellidos": "Martínez Ortiz",
+                "apellidos": "Martinez Ortiz",
                 "telefono": "315 847 0926"
             },
             "jornada": 4
         },
         {
             "id": 3,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Bajo",
             "nombres": "Santiago",
-            "apellidos": "Gómez Herrera",
+            "apellidos": "Gomez Herrera",
             "direccion": "Calle 22 #18-50",
             "telefono": "315 765 4321",
             "acudiente": {
@@ -124,11 +124,11 @@
             "estado": "Retirado",
             "riesgo": "Bajo",
             "nombres": "Camila Alejandra",
-            "apellidos": "Rodríguez Peña",
+            "apellidos": "Rodriguez Peña",
             "direccion": "Avenida 9 #100-23",
             "telefono": "317 852 9634",
             "acudiente": {
-                "nombres": "Andrés",
+                "nombres": "Andres",
                 "apellidos": "Peña Jaramillo",
                 "telefono": "315 847 0926"
             },
@@ -136,15 +136,15 @@
         },
         {
             "id": 5,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Alto",
-            "nombres": "Andrés",
-            "apellidos": "Fernández Castro",
+            "nombres": "Andres",
+            "apellidos": "Fernandez Castro",
             "direccion": "Diagonal 30 #12-89",
             "telefono": "312 369 7412",
             "acudiente": {
                 "nombres": "Marta Daniela",
-                "apellidos": "Castro Mejía",
+                "apellidos": "Castro Mejia",
                 "telefono": "315 847 0926"
             },
             "jornada": 3
@@ -154,27 +154,27 @@
             "estado": "Cursando",
             "riesgo": "Bajo",
             "nombres": "Lucas",
-            "apellidos": "Fernández Pérez",
+            "apellidos": "Fernandez Perez",
             "direccion": "Avenida 5 #20-45",
             "telefono": "311 456 7890",
             "acudiente": {
-                "nombres": "María",
-                "apellidos": "Pérez González",
+                "nombres": "Maria",
+                "apellidos": "Perez Gonzalez",
                 "telefono": "320 123 4567"
             },
             "jornada": 1
         },
         {
             "id": 7,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Medio",
             "nombres": "Camila",
-            "apellidos": "García López",
+            "apellidos": "Garcia Lopez",
             "direccion": "Calle 10 #15-30",
             "telefono": "312 654 7890",
             "acudiente": {
                 "nombres": "Luis",
-                "apellidos": "López Martínez",
+                "apellidos": "Lopez Martinez",
                 "telefono": "321 987 6543"
             },
             "jornada": 4
@@ -184,27 +184,27 @@
             "estado": "Inscrito",
             "riesgo": "Alto",
             "nombres": "Daniel",
-            "apellidos": "Martínez Rodríguez",
+            "apellidos": "Martinez Rodriguez",
             "direccion": "Carrera 8 #12-50",
             "telefono": "313 789 4561",
             "acudiente": {
                 "nombres": "Claudia",
-                "apellidos": "Rodríguez Fernández",
+                "apellidos": "Rodriguez Fernandez",
                 "telefono": "322 654 3210"
             },
             "jornada": 1
         },
         {
             "id": 9,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Bajo",
-            "nombres": "Sofía",
-            "apellidos": "Hernández Gómez",
+            "nombres": "Sofia",
+            "apellidos": "Hernandez Gomez",
             "direccion": "Avenida 9 #30-22",
             "telefono": "314 987 1234",
             "acudiente": {
                 "nombres": "Carlos",
-                "apellidos": "Gómez Torres",
+                "apellidos": "Gomez Torres",
                 "telefono": "323 321 7654"
             },
             "jornada": 4
@@ -214,19 +214,19 @@
             "estado": "Retirado",
             "riesgo": "Alto",
             "nombres": "Mateo",
-            "apellidos": "Ramírez Díaz",
+            "apellidos": "Ramirez Diaz",
             "direccion": "Calle 25 #18-60",
             "telefono": "315 654 7891",
             "acudiente": {
                 "nombres": "Laura",
-                "apellidos": "Díaz Pérez",
+                "apellidos": "Diaz Perez",
                 "telefono": "324 987 4321"
             },
             "jornada": 2
         },
         {
             "id": 11,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Medio",
             "nombres": "Isabela",
             "apellidos": "Torres Vargas",
@@ -234,7 +234,7 @@
             "telefono": "316 987 6543",
             "acudiente": {
                 "nombres": "Jorge",
-                "apellidos": "Vargas Hernández",
+                "apellidos": "Vargas Hernandez",
                 "telefono": "325 123 7890"
             },
             "jornada": 3
@@ -250,37 +250,37 @@
         },
         {
             "id": 13,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Medio",
-            "nombres": "Sebastián",
-            "apellidos": "Gutiérrez Rivas",
+            "nombres": "Sebastian",
+            "apellidos": "Gutierrez Rivas",
             "direccion": "Calle 14 #9-17",
             "telefono": "318 321 9876",
             "acudiente": {
                 "nombres": "Ricardo",
-                "apellidos": "Rivas González",
+                "apellidos": "Rivas Gonzalez",
                 "telefono": "327 456 7890"
             },
             "jornada": 4
         },
         {
             "id": 14,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Bajo",
-            "nombres": "Lucía",
+            "nombres": "Lucia",
             "apellidos": "Navarro Salazar",
             "direccion": "Carrera 3 #11-25",
             "telefono": "319 654 7890",
             "acudiente": {
-                "nombres": "Andrés",
-                "apellidos": "Salazar Martínez",
+                "nombres": "Andres",
+                "apellidos": "Salazar Martinez",
                 "telefono": "328 987 1234"
             },
             "jornada": 2
         },
         {
             "id": 15,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Alto",
             "nombres": "Valentina",
             "apellidos": "Ortiz Morales",
@@ -288,22 +288,22 @@
             "telefono": "320 987 6543",
             "acudiente": {
                 "nombres": "Manuel",
-                "apellidos": "Morales Pérez",
+                "apellidos": "Morales Perez",
                 "telefono": "329 123 4567"
             },
             "jornada": 2
         },
         {
             "id": 16,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Bajo",
-            "nombres": "Tomás",
+            "nombres": "Tomas",
             "apellidos": "Ruiz Delgado",
             "direccion": "Avenida 12 #22-34",
             "telefono": "321 654 3210",
             "acudiente": {
                 "nombres": "Gabriela",
-                "apellidos": "Delgado Hernández",
+                "apellidos": "Delgado Hernandez",
                 "telefono": "330 987 6543"
             },
             "jornada": 2
@@ -313,27 +313,27 @@
             "estado": "Retirado",
             "riesgo": "Bajo",
             "nombres": "Renata",
-            "apellidos": "Jiménez Castillo",
+            "apellidos": "Jimenez Castillo",
             "direccion": "Calle 8 #13-40",
             "telefono": "322 789 4561",
             "acudiente": {
                 "nombres": "Felipe",
-                "apellidos": "Castillo González",
+                "apellidos": "Castillo Gonzalez",
                 "telefono": "331 654 7890"
             },
             "jornada": 3
         },
         {
             "id": 18,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Alto",
             "nombres": "Gabriel",
-            "apellidos": "Mendoza Cárdenas",
+            "apellidos": "Mendoza Cardenas",
             "direccion": "Carrera 5 #25-67",
             "telefono": "323 987 1234",
             "acudiente": {
                 "nombres": "Diana",
-                "apellidos": "Cárdenas Martínez",
+                "apellidos": "Cardenas Martinez",
                 "telefono": "332 321 9876"
             },
             "jornada": 2
@@ -343,20 +343,20 @@
             "estado": "En proceso de ingreso",
             "riesgo": "Bajo",
             "nombres": "Antonella",
-            "apellidos": "Serrano Pérez",
+            "apellidos": "Serrano Perez",
             "direccion": "Avenida 14 #19-60"
         },
         {
             "id": 20,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Bajo",
-            "nombres": "Martín",
+            "nombres": "Martin",
             "apellidos": "Vega Herrera",
             "direccion": "Calle 11 #17-45",
             "telefono": "325 123 7894",
             "acudiente": {
                 "nombres": "Elena",
-                "apellidos": "Herrera González",
+                "apellidos": "Herrera Gonzalez",
                 "telefono": "334 654 1230"
             },
             "jornada": 4
@@ -377,7 +377,7 @@
             "direccion": "Calle 11b#56 - 6",
             "acudiente": {
                 "nombres": "Manuela",
-                "apellidos": "Pico García",
+                "apellidos": "Pico Garcia",
                 "telefono": "316 638 6372"
             },
             "jornada": 1
@@ -387,7 +387,7 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Mateo",
-            "apellidos": "Fernández López",
+            "apellidos": "Fernandez Lopez",
             "direccion": "Calle 17 #42-48",
             "telefono": "320 282 8773",
             "acudiente": {
@@ -402,12 +402,12 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Mateo",
-            "apellidos": "Torres López",
+            "apellidos": "Torres Lopez",
             "direccion": "Calle 27 #4-71",
             "telefono": "313 970 7040",
             "acudiente": {
                 "nombres": "Ana",
-                "apellidos": "Ríos Mejía",
+                "apellidos": "Rios Mejia",
                 "telefono": "308 817 3119"
             },
             "jornada": 3
@@ -417,7 +417,7 @@
             "estado": "Expulsado",
             "riesgo": "Bajo",
             "nombres": "Isabella",
-            "apellidos": "Fernández Martínez",
+            "apellidos": "Fernandez Martinez",
             "direccion": "Calle 75 #45-88",
             "telefono": "300 331 7302",
             "acudiente": {
@@ -431,13 +431,13 @@
             "id": 26,
             "estado": "Aprobado",
             "riesgo": "Bajo",
-            "nombres": "Sebastián",
-            "apellidos": "Gómez Torres",
+            "nombres": "Sebastian",
+            "apellidos": "Gomez Torres",
             "direccion": "Calle 58 #24-46",
             "telefono": "311 213 9148",
             "acudiente": {
                 "nombres": "Carlos",
-                "apellidos": "Mejía Castillo",
+                "apellidos": "Mejia Castillo",
                 "telefono": "311 876 1010"
             },
             "jornada": 4
@@ -447,7 +447,7 @@
             "estado": "Retirado",
             "riesgo": "Alto",
             "nombres": "Isabella",
-            "apellidos": "Rodríguez López",
+            "apellidos": "Rodriguez Lopez",
             "direccion": "Calle 32 #19-45",
             "telefono": "303 459 5417",
             "acudiente": {
@@ -462,12 +462,12 @@
             "estado": "Inscrito",
             "riesgo": "Bajo",
             "nombres": "Alejandro",
-            "apellidos": "López Fernández",
+            "apellidos": "Lopez Fernandez",
             "direccion": "Calle 41 #47-91",
             "telefono": "311 416 3149",
             "acudiente": {
                 "nombres": "Juana",
-                "apellidos": "Camargo Mejía",
+                "apellidos": "Camargo Mejia",
                 "telefono": "304 922 3155"
             },
             "jornada": 2
@@ -477,7 +477,7 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Juan",
-            "apellidos": "Díaz Martínez",
+            "apellidos": "Diaz Martinez",
             "direccion": "Calle 92 #27-47",
             "telefono": "306 649 7318",
             "acudiente": {
@@ -492,7 +492,7 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Mariana",
-            "apellidos": "Martínez Gómez",
+            "apellidos": "Martinez Gomez",
             "direccion": "Calle 80 #6-8",
             "telefono": "320 848 6878",
             "acudiente": {
@@ -507,7 +507,7 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Mariana",
-            "apellidos": "Gómez Ramírez",
+            "apellidos": "Gomez Ramirez",
             "direccion": "Calle 68 #28-91",
             "telefono": "318 519 9596",
             "acudiente": {
@@ -521,13 +521,13 @@
             "id": 32,
             "estado": "Inscrito",
             "riesgo": "Alto",
-            "nombres": "Sofía",
-            "apellidos": "Martínez Torres",
+            "nombres": "Sofia",
+            "apellidos": "Martinez Torres",
             "direccion": "Calle 93 #14-32",
             "telefono": "301 906 4457",
             "acudiente": {
                 "nombres": "Patricia",
-                "apellidos": "Mendoza Ríos",
+                "apellidos": "Mendoza Rios",
                 "telefono": "304 819 5306"
             },
             "jornada": 3
@@ -537,12 +537,12 @@
             "estado": "Expulsado",
             "riesgo": "Medio",
             "nombres": "Daniel",
-            "apellidos": "Fernández López",
+            "apellidos": "Fernandez Lopez",
             "direccion": "Calle 37 #30-38",
             "telefono": "306 561 7760",
             "acudiente": {
                 "nombres": "Patricia",
-                "apellidos": "Vargas Mejía",
+                "apellidos": "Vargas Mejia",
                 "telefono": "314 257 7786"
             },
             "jornada": 4
@@ -552,7 +552,7 @@
             "estado": "Retirado",
             "riesgo": "Bajo",
             "nombres": "Alejandro",
-            "apellidos": "López Fernández",
+            "apellidos": "Lopez Fernandez",
             "direccion": "Calle 71 #46-95",
             "telefono": "320 225 3256",
             "acudiente": {
@@ -566,8 +566,8 @@
             "id": 35,
             "estado": "Retirado",
             "riesgo": "Medio",
-            "nombres": "Sebastián",
-            "apellidos": "Fernández López",
+            "nombres": "Sebastian",
+            "apellidos": "Fernandez Lopez",
             "direccion": "Calle 49 #20-48",
             "telefono": "301 419 9801",
             "acudiente": {
@@ -582,7 +582,7 @@
             "estado": "Retirado",
             "riesgo": "Medio",
             "nombres": "Valeria",
-            "apellidos": "Díaz Torres",
+            "apellidos": "Diaz Torres",
             "direccion": "Calle 52 #18-58",
             "telefono": "312 644 7119",
             "acudiente": {
@@ -597,7 +597,7 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Mateo",
-            "apellidos": "López Rodríguez",
+            "apellidos": "Lopez Rodriguez",
             "direccion": "Calle 36 #5-58",
             "telefono": "311 124 9601",
             "acudiente": {
@@ -612,7 +612,7 @@
             "estado": "Retirado",
             "riesgo": "Alto",
             "nombres": "Camila",
-            "apellidos": "Díaz Fernández",
+            "apellidos": "Diaz Fernandez",
             "direccion": "Calle 20 #1-84",
             "telefono": "304 372 9765",
             "acudiente": {
@@ -626,8 +626,8 @@
             "id": 39,
             "estado": "Aprobado",
             "riesgo": "Medio",
-            "nombres": "Sofía",
-            "apellidos": "García Díaz",
+            "nombres": "Sofia",
+            "apellidos": "Garcia Diaz",
             "direccion": "Calle 8 #31-2",
             "telefono": "301 577 4147",
             "acudiente": {
@@ -642,7 +642,7 @@
             "estado": "En proceso de ingreso",
             "riesgo": "Medio",
             "nombres": "Daniel",
-            "apellidos": "Gómez García",
+            "apellidos": "Gomez Garcia",
             "direccion": "Calle 48 #13-41",
             "telefono": "308 397 2587",
             "acudiente": {
@@ -656,7 +656,7 @@
             "estado": "Retirado",
             "riesgo": "Medio",
             "nombres": "Valeria",
-            "apellidos": "Torres García",
+            "apellidos": "Torres Garcia",
             "direccion": "Calle 90 #3-75",
             "telefono": "308 865 9712",
             "acudiente": {
@@ -671,7 +671,7 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Alejandro",
-            "apellidos": "Ramírez García",
+            "apellidos": "Ramirez Garcia",
             "direccion": "Calle 39 #17-100",
             "telefono": "301 490 7728",
             "acudiente": {
@@ -686,7 +686,7 @@
             "estado": "En proceso de ingreso",
             "riesgo": "Medio",
             "nombres": "Valeria",
-            "apellidos": "Torres Martínez",
+            "apellidos": "Torres Martinez",
             "direccion": "Calle 78 #27-51",
             "telefono": "302 430 4485"
         },
@@ -694,13 +694,13 @@
             "id": 44,
             "estado": "En proceso de ingreso",
             "riesgo": "Bajo",
-            "nombres": "Sofía",
-            "apellidos": "López Gómez",
+            "nombres": "Sofia",
+            "apellidos": "Lopez Gomez",
             "direccion": "Calle 25 #34-29",
             "telefono": "300 126 3720",
             "acudiente": {
                 "nombres": "Patricia",
-                "apellidos": "Padilla Mejía",
+                "apellidos": "Padilla Mejia",
                 "telefono": "315 787 3564"
             }
         },
@@ -709,12 +709,12 @@
             "estado": "Inscrito",
             "riesgo": "Bajo",
             "nombres": "Alejandro",
-            "apellidos": "Gómez García",
+            "apellidos": "Gomez Garcia",
             "direccion": "Calle 4 #48-88",
             "telefono": "307 309 1280",
             "acudiente": {
                 "nombres": "Clara",
-                "apellidos": "Mejía Herrera",
+                "apellidos": "Mejia Herrera",
                 "telefono": "305 390 1718"
             },
             "jornada": 2
@@ -723,8 +723,8 @@
             "id": 46,
             "estado": "En proceso de ingreso",
             "riesgo": "Bajo",
-            "nombres": "Sofía",
-            "apellidos": "Rodríguez Ramírez",
+            "nombres": "Sofia",
+            "apellidos": "Rodriguez Ramirez",
             "direccion": "Calle 83 #12-97"
         },
         {
@@ -732,7 +732,7 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Mariana",
-            "apellidos": "Torres Rodríguez",
+            "apellidos": "Torres Rodriguez",
             "direccion": "Calle 94 #48-88",
             "telefono": "308 313 4019",
             "acudiente": {
@@ -744,10 +744,10 @@
         },
         {
             "id": 48,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Camila",
-            "apellidos": "Díaz Gómez",
+            "apellidos": "Diaz Gomez",
             "direccion": "Calle 14 #30-40",
             "telefono": "304 482 5843",
             "acudiente": {
@@ -762,12 +762,12 @@
             "estado": "Inscrito",
             "riesgo": "Medio",
             "nombres": "Isabella",
-            "apellidos": "Pérez Díaz",
+            "apellidos": "Perez Diaz",
             "direccion": "Calle 5 #8-58",
             "telefono": "302 824 7202",
             "acudiente": {
                 "nombres": "Clara",
-                "apellidos": "Ríos Vargas",
+                "apellidos": "Rios Vargas",
                 "telefono": "309 767 8964"
             },
             "jornada": 1
@@ -777,7 +777,7 @@
             "estado": "Inscrito",
             "riesgo": "Alto",
             "nombres": "Juan",
-            "apellidos": "Gómez Martínez",
+            "apellidos": "Gomez Martinez",
             "direccion": "Calle 24 #48-64",
             "telefono": "303 160 6053",
             "acudiente": {
@@ -789,15 +789,15 @@
         },
         {
             "id": 51,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Alto",
-            "nombres": "Sofía",
-            "apellidos": "Martínez Martínez",
+            "nombres": "Sofia",
+            "apellidos": "Martinez Martinez",
             "direccion": "Calle 87 #5-30",
             "telefono": "317 219 5752",
             "acudiente": {
                 "nombres": "Juana",
-                "apellidos": "Ríos Padilla",
+                "apellidos": "Rios Padilla",
                 "telefono": "306 760 3133"
             },
             "jornada": 1
@@ -806,13 +806,13 @@
             "id": 52,
             "estado": "Aprobado",
             "riesgo": "Bajo",
-            "nombres": "Sofía",
-            "apellidos": "Rodríguez Pérez",
+            "nombres": "Sofia",
+            "apellidos": "Rodriguez Perez",
             "direccion": "Calle 61 #6-14",
             "telefono": "304 827 6877",
             "acudiente": {
                 "nombres": "Ana",
-                "apellidos": "Ríos Mejía",
+                "apellidos": "Rios Mejia",
                 "telefono": "314 599 8858"
             },
             "jornada": 1
@@ -822,7 +822,7 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Mariana",
-            "apellidos": "Rodríguez Martínez",
+            "apellidos": "Rodriguez Martinez",
             "direccion": "Calle 53 #26-51",
             "telefono": "315 420 9008",
             "acudiente": {
@@ -836,8 +836,8 @@
             "id": 54,
             "estado": "Aprobado",
             "riesgo": "Medio",
-            "nombres": "Sofía",
-            "apellidos": "Gómez Fernández",
+            "nombres": "Sofia",
+            "apellidos": "Gomez Fernandez",
             "direccion": "Calle 10 #47-93",
             "telefono": "320 493 9473",
             "acudiente": {
@@ -852,7 +852,7 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Mateo",
-            "apellidos": "Martínez Martínez",
+            "apellidos": "Martinez Martinez",
             "direccion": "Calle 88 #4-25",
             "telefono": "312 989 9467",
             "acudiente": {
@@ -867,7 +867,7 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Mateo",
-            "apellidos": "Torres Martínez",
+            "apellidos": "Torres Martinez",
             "direccion": "Calle 97 #33-72",
             "telefono": "312 405 4741",
             "acudiente": {
@@ -882,7 +882,7 @@
             "estado": "Graduado",
             "riesgo": "Bajo",
             "nombres": "Isabella",
-            "apellidos": "Pérez López",
+            "apellidos": "Perez Lopez",
             "direccion": "Calle 38 #44-24",
             "telefono": "308 815 1802",
             "acudiente": {
@@ -897,12 +897,12 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Valeria",
-            "apellidos": "Pérez López",
+            "apellidos": "Perez Lopez",
             "direccion": "Calle 53 #47-13",
             "telefono": "301 545 6631",
             "acudiente": {
                 "nombres": "Ana",
-                "apellidos": "Salazar Ríos",
+                "apellidos": "Salazar Rios",
                 "telefono": "304 887 2857"
             },
             "jornada": 4
@@ -911,13 +911,13 @@
             "id": 59,
             "estado": "Aprobado",
             "riesgo": "Medio",
-            "nombres": "Sebastián",
-            "apellidos": "Fernández Gómez",
+            "nombres": "Sebastian",
+            "apellidos": "Fernandez Gomez",
             "direccion": "Calle 49 #35-9",
             "telefono": "301 220 3953",
             "acudiente": {
                 "nombres": "Ana",
-                "apellidos": "Mejía Ríos",
+                "apellidos": "Mejia Rios",
                 "telefono": "320 834 5243"
             },
             "jornada": 4
@@ -927,7 +927,7 @@
             "estado": "Graduado",
             "riesgo": "Bajo",
             "nombres": "Daniel",
-            "apellidos": "Ramírez Ramírez",
+            "apellidos": "Ramirez Ramirez",
             "direccion": "Calle 7 #21-55",
             "telefono": "305 395 2576",
             "acudiente": {
@@ -941,13 +941,13 @@
             "id": 61,
             "estado": "Expulsado",
             "riesgo": "Alto",
-            "nombres": "Sofía",
-            "apellidos": "Ramírez Martínez",
+            "nombres": "Sofia",
+            "apellidos": "Ramirez Martinez",
             "direccion": "Calle 49 #50-20",
             "telefono": "315 343 9525",
             "acudiente": {
                 "nombres": "Marta",
-                "apellidos": "Mejía Ortiz",
+                "apellidos": "Mejia Ortiz",
                 "telefono": "305 383 8984"
             },
             "jornada": 1
@@ -957,7 +957,7 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Alejandro",
-            "apellidos": "Pérez Pérez",
+            "apellidos": "Perez Perez",
             "direccion": "Calle 68 #44-17",
             "telefono": "315 255 2875",
             "acudiente": {
@@ -972,7 +972,7 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Alejandro",
-            "apellidos": "Fernández López",
+            "apellidos": "Fernandez Lopez",
             "direccion": "Calle 62 #28-87",
             "telefono": "302 204 8468",
             "acudiente": {
@@ -987,12 +987,12 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Valeria",
-            "apellidos": "Ramírez Díaz",
+            "apellidos": "Ramirez Diaz",
             "direccion": "Calle 46 #13-90",
             "telefono": "310 831 1557",
             "acudiente": {
                 "nombres": "Fernando",
-                "apellidos": "Ríos Vargas",
+                "apellidos": "Rios Vargas",
                 "telefono": "318 120 1373"
             },
             "jornada": 4
@@ -1002,12 +1002,12 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Camila",
-            "apellidos": "Ramírez Díaz",
+            "apellidos": "Ramirez Diaz",
             "direccion": "Calle 35 #41-41",
             "telefono": "320 262 9740",
             "acudiente": {
                 "nombres": "Javier",
-                "apellidos": "Mejía Mendoza",
+                "apellidos": "Mejia Mendoza",
                 "telefono": "307 852 8372"
             },
             "jornada": 1
@@ -1017,7 +1017,7 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Mariana",
-            "apellidos": "Fernández Martínez",
+            "apellidos": "Fernandez Martinez",
             "direccion": "Calle 57 #13-45",
             "telefono": "302 541 7983",
             "acudiente": {
@@ -1032,7 +1032,7 @@
             "estado": "Inscrito",
             "riesgo": "Alto",
             "nombres": "Juan",
-            "apellidos": "Gómez Fernández",
+            "apellidos": "Gomez Fernandez",
             "direccion": "Calle 51 #34-78",
             "telefono": "309 476 1293",
             "acudiente": {
@@ -1046,8 +1046,8 @@
             "id": 68,
             "estado": "En proceso de ingreso",
             "riesgo": "Medio",
-            "nombres": "Sofía",
-            "apellidos": "Díaz Gómez",
+            "nombres": "Sofia",
+            "apellidos": "Diaz Gomez",
             "direccion": "Calle 66 #12-38",
             "telefono": "319 457 4193"
         },
@@ -1056,7 +1056,7 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Camila",
-            "apellidos": "García Fernández",
+            "apellidos": "Garcia Fernandez",
             "direccion": "Calle 70 #43-24",
             "telefono": "319 114 6485",
             "acudiente": {
@@ -1071,7 +1071,7 @@
             "estado": "En proceso de ingreso",
             "riesgo": "Medio",
             "nombres": "Mateo",
-            "apellidos": "Gómez Díaz",
+            "apellidos": "Gomez Diaz",
             "direccion": "Calle 100 #15-84",
             "telefono": "318 361 7950",
             "acudiente": {
@@ -1085,12 +1085,12 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Isabella",
-            "apellidos": "Ramírez Díaz",
+            "apellidos": "Ramirez Diaz",
             "direccion": "Calle 68 #20-61",
             "telefono": "314 998 4078",
             "acudiente": {
                 "nombres": "Patricia",
-                "apellidos": "Vargas Ríos",
+                "apellidos": "Vargas Rios",
                 "telefono": "314 609 3929"
             },
             "jornada": 1
@@ -1100,7 +1100,7 @@
             "estado": "Graduado",
             "riesgo": "Alto",
             "nombres": "Juan",
-            "apellidos": "López Torres",
+            "apellidos": "Lopez Torres",
             "direccion": "Calle 63 #50-80",
             "telefono": "308 699 6551",
             "acudiente": {
@@ -1115,7 +1115,7 @@
             "estado": "Expulsado",
             "riesgo": "Medio",
             "nombres": "Mateo",
-            "apellidos": "García Díaz",
+            "apellidos": "Garcia Diaz",
             "direccion": "Calle 55 #2-51",
             "telefono": "310 397 9360",
             "acudiente": {
@@ -1130,7 +1130,7 @@
             "estado": "En proceso de ingreso",
             "riesgo": "Medio",
             "nombres": "Camila",
-            "apellidos": "Díaz Rodríguez",
+            "apellidos": "Diaz Rodriguez",
             "direccion": "Calle 17 #38-33"
         },
         {
@@ -1138,12 +1138,12 @@
             "estado": "Expulsado",
             "riesgo": "Medio",
             "nombres": "Camila",
-            "apellidos": "Torres Díaz",
+            "apellidos": "Torres Diaz",
             "direccion": "Calle 83 #31-88",
             "telefono": "317 127 8678",
             "acudiente": {
                 "nombres": "Ana",
-                "apellidos": "Herrera Mejía",
+                "apellidos": "Herrera Mejia",
                 "telefono": "312 695 8400"
             },
             "jornada": 3
@@ -1153,7 +1153,7 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Mariana",
-            "apellidos": "García Díaz",
+            "apellidos": "Garcia Diaz",
             "direccion": "Calle 4 #27-94",
             "telefono": "312 274 8165",
             "acudiente": {
@@ -1168,12 +1168,12 @@
             "estado": "Inscrito",
             "riesgo": "Medio",
             "nombres": "Mariana",
-            "apellidos": "Gómez García",
+            "apellidos": "Gomez Garcia",
             "direccion": "Calle 34 #32-76",
             "telefono": "308 702 7378",
             "acudiente": {
                 "nombres": "Ana",
-                "apellidos": "Herrera Ríos",
+                "apellidos": "Herrera Rios",
                 "telefono": "301 882 7954"
             },
             "jornada": 4
@@ -1183,7 +1183,7 @@
             "estado": "Inscrito",
             "riesgo": "Alto",
             "nombres": "Isabella",
-            "apellidos": "Torres Martínez",
+            "apellidos": "Torres Martinez",
             "direccion": "Calle 8 #19-9",
             "telefono": "301 192 2171",
             "acudiente": {
@@ -1198,7 +1198,7 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Alejandro",
-            "apellidos": "Pérez Martínez",
+            "apellidos": "Perez Martinez",
             "direccion": "Calle 31 #29-72",
             "telefono": "308 464 1060",
             "acudiente": {
@@ -1213,7 +1213,7 @@
             "estado": "Expulsado",
             "riesgo": "Medio",
             "nombres": "Mateo",
-            "apellidos": "Díaz Díaz",
+            "apellidos": "Diaz Diaz",
             "direccion": "Calle 5 #42-7",
             "telefono": "303 626 7570",
             "acudiente": {
@@ -1227,13 +1227,13 @@
             "id": 81,
             "estado": "Aprobado",
             "riesgo": "Bajo",
-            "nombres": "Sebastián",
-            "apellidos": "Fernández Martínez",
+            "nombres": "Sebastian",
+            "apellidos": "Fernandez Martinez",
             "direccion": "Calle 30 #49-22",
             "telefono": "310 382 3853",
             "acudiente": {
                 "nombres": "Marta",
-                "apellidos": "Vargas Mejía",
+                "apellidos": "Vargas Mejia",
                 "telefono": "302 272 3782"
             },
             "jornada": 4
@@ -1243,7 +1243,7 @@
             "estado": "Graduado",
             "riesgo": "Bajo",
             "nombres": "Camila",
-            "apellidos": "Ramírez Torres",
+            "apellidos": "Ramirez Torres",
             "direccion": "Calle 54 #17-97",
             "telefono": "320 158 3836",
             "acudiente": {
@@ -1258,12 +1258,12 @@
             "estado": "Graduado",
             "riesgo": "Medio",
             "nombres": "Mariana",
-            "apellidos": "Díaz Gómez",
+            "apellidos": "Diaz Gomez",
             "direccion": "Calle 61 #14-24",
             "telefono": "319 236 2242",
             "acudiente": {
                 "nombres": "Luis",
-                "apellidos": "Ríos Mendoza",
+                "apellidos": "Rios Mendoza",
                 "telefono": "300 550 1932"
             },
             "jornada": 4
@@ -1273,7 +1273,7 @@
             "estado": "En proceso de ingreso",
             "riesgo": "Medio",
             "nombres": "Valeria",
-            "apellidos": "Torres Fernández",
+            "apellidos": "Torres Fernandez",
             "direccion": "Calle 12 #3-95",
             "telefono": "310 257 9176"
         },
@@ -1282,12 +1282,12 @@
             "estado": "Graduado",
             "riesgo": "Alto",
             "nombres": "Mariana",
-            "apellidos": "Díaz Torres",
+            "apellidos": "Diaz Torres",
             "direccion": "Calle 25 #29-100",
             "telefono": "306 438 4976",
             "acudiente": {
                 "nombres": "Clara",
-                "apellidos": "Padilla Mejía",
+                "apellidos": "Padilla Mejia",
                 "telefono": "316 629 3341"
             },
             "jornada": 4
@@ -1296,8 +1296,8 @@
             "id": 86,
             "estado": "Graduado",
             "riesgo": "Medio",
-            "nombres": "Sofía",
-            "apellidos": "Fernández Fernández",
+            "nombres": "Sofia",
+            "apellidos": "Fernandez Fernandez",
             "direccion": "Calle 66 #20-46",
             "telefono": "317 637 1016",
             "acudiente": {
@@ -1312,7 +1312,7 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Alejandro",
-            "apellidos": "Fernández Rodríguez",
+            "apellidos": "Fernandez Rodriguez",
             "direccion": "Calle 48 #46-69",
             "telefono": "305 964 3548",
             "acudiente": {
@@ -1327,12 +1327,12 @@
             "estado": "Expulsado",
             "riesgo": "Medio",
             "nombres": "Camila",
-            "apellidos": "Martínez Rodríguez",
+            "apellidos": "Martinez Rodriguez",
             "direccion": "Calle 27 #35-9",
             "telefono": "302 453 3842",
             "acudiente": {
                 "nombres": "Marta",
-                "apellidos": "Mejía Ortiz",
+                "apellidos": "Mejia Ortiz",
                 "telefono": "309 835 6095"
             },
             "jornada": 3
@@ -1342,7 +1342,7 @@
             "estado": "Inscrito",
             "riesgo": "Medio",
             "nombres": "Juan",
-            "apellidos": "Fernández García",
+            "apellidos": "Fernandez Garcia",
             "direccion": "Calle 42 #6-38",
             "telefono": "318 483 6428",
             "acudiente": {
@@ -1357,12 +1357,12 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Isabella",
-            "apellidos": "Ramírez López",
+            "apellidos": "Ramirez Lopez",
             "direccion": "Calle 73 #33-91",
             "telefono": "315 927 1176",
             "acudiente": {
                 "nombres": "Patricia",
-                "apellidos": "Mejía Herrera",
+                "apellidos": "Mejia Herrera",
                 "telefono": "318 196 7848"
             },
             "jornada": 3
@@ -1372,19 +1372,19 @@
             "estado": "En proceso de ingreso",
             "riesgo": "Medio",
             "nombres": "Alejandro",
-            "apellidos": "García García"
+            "apellidos": "Garcia Garcia"
         },
         {
             "id": 92,
             "estado": "Graduado",
             "riesgo": "Bajo",
             "nombres": "Mateo",
-            "apellidos": "Martínez Pérez",
+            "apellidos": "Martinez Perez",
             "direccion": "Calle 89 #43-36",
             "telefono": "301 756 4871",
             "acudiente": {
                 "nombres": "Luis",
-                "apellidos": "Mejía Ríos",
+                "apellidos": "Mejia Rios",
                 "telefono": "315 140 5403"
             },
             "jornada": 2
@@ -1394,7 +1394,7 @@
             "estado": "Inscrito",
             "riesgo": "Alto",
             "nombres": "Isabella",
-            "apellidos": "Gómez Ramírez",
+            "apellidos": "Gomez Ramirez",
             "direccion": "Calle 19 #27-34",
             "telefono": "311 445 4311",
             "acudiente": {
@@ -1409,7 +1409,7 @@
             "estado": "Graduado",
             "riesgo": "Bajo",
             "nombres": "Mateo",
-            "apellidos": "Gómez Torres",
+            "apellidos": "Gomez Torres",
             "direccion": "Calle 7 #16-87",
             "telefono": "310 376 3561",
             "acudiente": {
@@ -1424,12 +1424,12 @@
             "estado": "Expulsado",
             "riesgo": "Alto",
             "nombres": "Alejandro",
-            "apellidos": "Rodríguez Rodríguez",
+            "apellidos": "Rodriguez Rodriguez",
             "direccion": "Calle 83 #14-66",
             "telefono": "315 513 1763",
             "acudiente": {
                 "nombres": "Clara",
-                "apellidos": "Salazar Ríos",
+                "apellidos": "Salazar Rios",
                 "telefono": "310 658 6886"
             },
             "jornada": 2
@@ -1439,7 +1439,7 @@
             "estado": "Graduado",
             "riesgo": "Bajo",
             "nombres": "Alejandro",
-            "apellidos": "García López",
+            "apellidos": "Garcia Lopez",
             "direccion": "Calle 56 #14-95",
             "telefono": "313 352 8118",
             "acudiente": {
@@ -1453,8 +1453,8 @@
             "id": 97,
             "estado": "Graduado",
             "riesgo": "Bajo",
-            "nombres": "Sofía",
-            "apellidos": "Fernández Pérez",
+            "nombres": "Sofia",
+            "apellidos": "Fernandez Perez",
             "direccion": "Calle 49 #31-23",
             "telefono": "300 639 2263",
             "acudiente": {
@@ -1468,8 +1468,8 @@
             "id": 98,
             "estado": "En proceso de ingreso",
             "riesgo": "Alto",
-            "nombres": "Sebastián",
-            "apellidos": "Díaz Rodríguez",
+            "nombres": "Sebastian",
+            "apellidos": "Diaz Rodriguez",
             "direccion": "Calle 42 #44-81"
         },
         {
@@ -1477,12 +1477,12 @@
             "estado": "Expulsado",
             "riesgo": "Medio",
             "nombres": "Juan",
-            "apellidos": "Ramírez Ramírez",
+            "apellidos": "Ramirez Ramirez",
             "direccion": "Calle 25 #15-92",
             "telefono": "302 200 2437",
             "acudiente": {
                 "nombres": "Ana",
-                "apellidos": "Ríos Mendoza",
+                "apellidos": "Rios Mendoza",
                 "telefono": "309 537 4406"
             },
             "jornada": 2
@@ -1492,7 +1492,7 @@
             "estado": "Graduado",
             "riesgo": "Bajo",
             "nombres": "Daniel",
-            "apellidos": "Fernández Fernández",
+            "apellidos": "Fernandez Fernandez",
             "direccion": "Calle 77 #23-3",
             "telefono": "315 832 4096",
             "acudiente": {
@@ -1507,7 +1507,7 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Mateo",
-            "apellidos": "Martínez García",
+            "apellidos": "Martinez Garcia",
             "direccion": "Calle 6 #26-51",
             "telefono": "305 185 3296",
             "acudiente": {
@@ -1522,12 +1522,12 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Isabella",
-            "apellidos": "Ramírez Fernández",
+            "apellidos": "Ramirez Fernandez",
             "direccion": "Calle 77 #12-76",
             "telefono": "312 122 7225",
             "acudiente": {
                 "nombres": "Carlos",
-                "apellidos": "Mejía Salazar",
+                "apellidos": "Mejia Salazar",
                 "telefono": "312 623 9213"
             },
             "jornada": 1
@@ -1537,22 +1537,22 @@
             "estado": "Inscrito",
             "riesgo": "Bajo",
             "nombres": "Juan",
-            "apellidos": "López Torres",
+            "apellidos": "Lopez Torres",
             "direccion": "Calle 65 #49-59",
             "telefono": "309 679 9105",
             "acudiente": {
                 "nombres": "Carlos",
-                "apellidos": "Mejía Herrera",
+                "apellidos": "Mejia Herrera",
                 "telefono": "308 253 5042"
             },
             "jornada": 4
         },
         {
             "id": 104,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
-            "nombres": "Sofía",
-            "apellidos": "Gómez Ramírez",
+            "nombres": "Sofia",
+            "apellidos": "Gomez Ramirez",
             "direccion": "Calle 69 #25-29",
             "telefono": "300 180 3140",
             "acudiente": {
@@ -1567,7 +1567,7 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Daniel",
-            "apellidos": "Ramírez Rodríguez",
+            "apellidos": "Ramirez Rodriguez",
             "direccion": "Calle 66 #33-29",
             "telefono": "318 500 2038",
             "acudiente": {
@@ -1582,22 +1582,22 @@
             "estado": "Expulsado",
             "riesgo": "Medio",
             "nombres": "Camila",
-            "apellidos": "Martínez Ramírez",
+            "apellidos": "Martinez Ramirez",
             "direccion": "Calle 85 #26-18",
             "telefono": "302 496 2260",
             "acudiente": {
                 "nombres": "Javier",
-                "apellidos": "Salazar Ríos",
+                "apellidos": "Salazar Rios",
                 "telefono": "307 974 1029"
             },
             "jornada": 2
         },
         {
             "id": 107,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Valeria",
-            "apellidos": "Gómez Torres",
+            "apellidos": "Gomez Torres",
             "direccion": "Calle 5 #47-27",
             "telefono": "310 313 2949",
             "acudiente": {
@@ -1612,7 +1612,7 @@
             "estado": "Retirado",
             "riesgo": "Medio",
             "nombres": "Alejandro",
-            "apellidos": "Martínez Díaz",
+            "apellidos": "Martinez Diaz",
             "direccion": "Calle 73 #42-49",
             "telefono": "312 152 7603",
             "acudiente": {
@@ -1627,7 +1627,7 @@
             "estado": "En proceso de ingreso",
             "riesgo": "Bajo",
             "nombres": "Mariana",
-            "apellidos": "Díaz Pérez",
+            "apellidos": "Diaz Perez",
             "direccion": "Calle 82 #33-24",
             "telefono": "304 621 8896"
         },
@@ -1636,7 +1636,7 @@
             "estado": "Graduado",
             "riesgo": "Alto",
             "nombres": "Juan",
-            "apellidos": "Torres Fernández",
+            "apellidos": "Torres Fernandez",
             "direccion": "Calle 70 #42-25",
             "telefono": "317 987 8470",
             "acudiente": {
@@ -1651,7 +1651,7 @@
             "estado": "Graduado",
             "riesgo": "Bajo",
             "nombres": "Mateo",
-            "apellidos": "López Martínez",
+            "apellidos": "Lopez Martinez",
             "direccion": "Calle 5 #14-56",
             "telefono": "303 393 7681",
             "acudiente": {
@@ -1665,8 +1665,8 @@
             "id": 112,
             "estado": "Retirado",
             "riesgo": "Medio",
-            "nombres": "Sebastián",
-            "apellidos": "Ramírez López",
+            "nombres": "Sebastian",
+            "apellidos": "Ramirez Lopez",
             "direccion": "Calle 46 #27-51",
             "telefono": "315 291 3797",
             "acudiente": {
@@ -1681,14 +1681,14 @@
             "estado": "En proceso de ingreso",
             "riesgo": "Medio",
             "nombres": "Daniel",
-            "apellidos": "Gómez Pérez"
+            "apellidos": "Gomez Perez"
         },
         {
             "id": 114,
             "estado": "Expulsado",
             "riesgo": "Medio",
             "nombres": "Juan",
-            "apellidos": "Ramírez Díaz",
+            "apellidos": "Ramirez Diaz",
             "direccion": "Calle 64 #42-15",
             "telefono": "308 583 5062",
             "acudiente": {
@@ -1703,7 +1703,7 @@
             "estado": "Expulsado",
             "riesgo": "Medio",
             "nombres": "Alejandro",
-            "apellidos": "Rodríguez Torres",
+            "apellidos": "Rodriguez Torres",
             "direccion": "Calle 1 #42-5",
             "telefono": "320 467 5253",
             "acudiente": {
@@ -1717,13 +1717,13 @@
             "id": 116,
             "estado": "En proceso de ingreso",
             "riesgo": "Bajo",
-            "nombres": "Sebastián",
-            "apellidos": "García García",
+            "nombres": "Sebastian",
+            "apellidos": "Garcia Garcia",
             "direccion": "Calle 49 #2-87",
             "telefono": "315 896 2242",
             "acudiente": {
                 "nombres": "Clara",
-                "apellidos": "Ríos Salazar",
+                "apellidos": "Rios Salazar",
                 "telefono": "304 160 9110"
             }
         },
@@ -1731,13 +1731,13 @@
             "id": 117,
             "estado": "Aprobado",
             "riesgo": "Alto",
-            "nombres": "Sofía",
-            "apellidos": "López Martínez",
+            "nombres": "Sofia",
+            "apellidos": "Lopez Martinez",
             "direccion": "Calle 80 #35-74",
             "telefono": "320 915 1448",
             "acudiente": {
                 "nombres": "Juana",
-                "apellidos": "Ríos Herrera",
+                "apellidos": "Rios Herrera",
                 "telefono": "307 737 3754"
             },
             "jornada": 2
@@ -1747,12 +1747,12 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Camila",
-            "apellidos": "García Martínez",
+            "apellidos": "Garcia Martinez",
             "direccion": "Calle 73 #33-84",
             "telefono": "309 447 7330",
             "acudiente": {
                 "nombres": "Ana",
-                "apellidos": "Mejía Ríos",
+                "apellidos": "Mejia Rios",
                 "telefono": "308 985 7489"
             },
             "jornada": 4
@@ -1761,8 +1761,8 @@
             "id": 119,
             "estado": "Aprobado",
             "riesgo": "Alto",
-            "nombres": "Sebastián",
-            "apellidos": "Pérez Pérez",
+            "nombres": "Sebastian",
+            "apellidos": "Perez Perez",
             "direccion": "Calle 100 #35-41",
             "telefono": "313 706 4461",
             "acudiente": {
@@ -1777,7 +1777,7 @@
             "estado": "Expulsado",
             "riesgo": "Alto",
             "nombres": "Camila",
-            "apellidos": "Gómez Pérez",
+            "apellidos": "Gomez Perez",
             "direccion": "Calle 48 #45-68",
             "telefono": "301 993 9536",
             "acudiente": {
@@ -1792,7 +1792,7 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Valeria",
-            "apellidos": "Gómez Rodríguez",
+            "apellidos": "Gomez Rodriguez",
             "direccion": "Calle 83 #37-91",
             "telefono": "307 285 5910",
             "acudiente": {
@@ -1807,7 +1807,7 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Alejandro",
-            "apellidos": "Pérez Gómez",
+            "apellidos": "Perez Gomez",
             "direccion": "Calle 85 #2-6",
             "telefono": "301 576 9663",
             "acudiente": {
@@ -1826,7 +1826,7 @@
             "direccion": "Cra 12#45 - 78",
             "telefono": "314 678 4536",
             "acudiente": {
-                "nombres": "Mi Papá",
+                "nombres": "Mi Papa",
                 "apellidos": "DOS",
                 "telefono": "314 675 5678"
             },
@@ -1836,8 +1836,8 @@
             "id": 124,
             "estado": "Aprobado",
             "riesgo": "Alto",
-            "nombres": "Vladimir José",
-            "apellidos": "Lópes Sambrano",
+            "nombres": "Vladimir Jose",
+            "apellidos": "Lopes Sambrano",
             "direccion": "Calle 78 #154-1",
             "telefono": "312 564 3789",
             "acudiente": {
@@ -1852,12 +1852,12 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Juan Fernando",
-            "apellidos": "García García",
+            "apellidos": "Garcia Garcia",
             "direccion": "Calle 32 #45-34",
             "telefono": "324 546 6598",
             "acudiente": {
-                "nombres": "Luis José",
-                "apellidos": "García Molina",
+                "nombres": "Luis Jose",
+                "apellidos": "Garcia Molina",
                 "telefono": "318 654 4832"
             },
             "jornada": 3
@@ -1866,13 +1866,13 @@
             "id": 126,
             "estado": "Aprobado",
             "riesgo": "Alto",
-            "nombres": "Sofía",
-            "apellidos": "García Torres",
+            "nombres": "Sofia",
+            "apellidos": "Garcia Torres",
             "direccion": "Calle 23 #12-34",
             "telefono": "312 345 6789",
             "acudiente": {
                 "nombres": "Luis Alberto",
-                "apellidos": "García Pérez",
+                "apellidos": "Garcia Perez",
                 "telefono": "314 987 6543"
             },
             "jornada": 2
@@ -1882,12 +1882,12 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Juan",
-            "apellidos": "Hernández Cruz",
+            "apellidos": "Hernandez Cruz",
             "direccion": "Carrera 7 #89-56",
             "telefono": "311 234 5678",
             "acudiente": {
-                "nombres": "María Elena",
-                "apellidos": "Cruz López",
+                "nombres": "Maria Elena",
+                "apellidos": "Cruz Lopez",
                 "telefono": "317 123 4567"
             },
             "jornada": 3
@@ -1897,12 +1897,12 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Camila",
-            "apellidos": "Pérez Ramírez",
+            "apellidos": "Perez Ramirez",
             "direccion": "Calle 45 #67-89",
             "telefono": "318 765 4321",
             "acudiente": {
-                "nombres": "José Luis",
-                "apellidos": "Pérez Martínez",
+                "nombres": "Jose Luis",
+                "apellidos": "Perez Martinez",
                 "telefono": "319 876 5432"
             },
             "jornada": 1
@@ -1911,13 +1911,13 @@
             "id": 129,
             "estado": "Aprobado",
             "riesgo": "Alto",
-            "nombres": "Andrés",
-            "apellidos": "González Herrera",
+            "nombres": "Andres",
+            "apellidos": "Gonzalez Herrera",
             "direccion": "Carrera 10 #34-56",
             "telefono": "320 654 9870",
             "acudiente": {
                 "nombres": "Patricia",
-                "apellidos": "Herrera Díaz",
+                "apellidos": "Herrera Diaz",
                 "telefono": "321 543 6789"
             },
             "jornada": 2
@@ -1927,12 +1927,12 @@
             "estado": "En proceso de ingreso",
             "riesgo": "Bajo",
             "nombres": "Isabella",
-            "apellidos": "Morales Fernández",
+            "apellidos": "Morales Fernandez",
             "direccion": "Calle 12 #98-76",
             "telefono": "322 432 1098",
             "acudiente": {
                 "nombres": "Fernando",
-                "apellidos": "Fernández Gómez",
+                "apellidos": "Fernandez Gomez",
                 "telefono": "323 210 9876"
             },
             "jornada": 3
@@ -1941,13 +1941,13 @@
             "id": 131,
             "estado": "Aprobado",
             "riesgo": "Medio",
-            "nombres": "Sebastián",
-            "apellidos": "Vargas Pérez",
+            "nombres": "Sebastian",
+            "apellidos": "Vargas Perez",
             "direccion": "Carrera 8 #56-23",
             "telefono": "324 567 8901",
             "acudiente": {
-                "nombres": "Lucía",
-                "apellidos": "Pérez Ramírez",
+                "nombres": "Lucia",
+                "apellidos": "Perez Ramirez",
                 "telefono": "325 678 9012"
             },
             "jornada": 4
@@ -1957,12 +1957,12 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Daniela",
-            "apellidos": "López Martínez",
+            "apellidos": "Lopez Martinez",
             "direccion": "Calle 34 #56-78",
             "telefono": "326 789 0123",
             "acudiente": {
                 "nombres": "Miguel",
-                "apellidos": "Martínez González",
+                "apellidos": "Martinez Gonzalez",
                 "telefono": "327 890 1234"
             },
             "jornada": 1
@@ -1972,12 +1972,12 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Luis",
-            "apellidos": "Ramírez Torres",
+            "apellidos": "Ramirez Torres",
             "direccion": "Carrera 20 #67-89",
             "telefono": "328 901 2345",
             "acudiente": {
                 "nombres": "Elena",
-                "apellidos": "Torres García",
+                "apellidos": "Torres Garcia",
                 "telefono": "329 012 3456"
             },
             "jornada": 2
@@ -1999,7 +1999,7 @@
         },
         {
             "id": 135,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Kairos",
             "apellidos": "Azrak Nadir",
@@ -2016,7 +2016,7 @@
             "id": 136,
             "estado": "Aprobado",
             "riesgo": "Alto",
-            "nombres": "Thalía Seren",
+            "nombres": "Thalia Seren",
             "apellidos": "Omari Zephyr",
             "direccion": "Boulevard de las Estrellas #45-67",
             "telefono": "334 567 8901",
@@ -2029,7 +2029,7 @@
         },
         {
             "id": 137,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Eira Nyx",
             "apellidos": "Corvin Dastan",
@@ -2179,7 +2179,7 @@
         },
         {
             "id": 147,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Astra Nymeria",
             "apellidos": "Sambrano Parra",
@@ -2209,7 +2209,7 @@
         },
         {
             "id": 149,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Ezequiel",
             "apellidos": "Montenegro Peralta",
@@ -2217,17 +2217,17 @@
             "telefono": "312 456 7890",
             "acudiente": {
                 "nombres": "Ismael",
-                "apellidos": "Peralta Ríos",
+                "apellidos": "Peralta Rios",
                 "telefono": "317 890 1234"
             },
             "jornada": 2
         },
         {
             "id": 150,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Celestina",
-            "apellidos": "Obregón Villalobos",
+            "apellidos": "Obregon Villalobos",
             "direccion": "Calle 8 #22-89",
             "telefono": "320 567 2345",
             "acudiente": {
@@ -2242,12 +2242,12 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Brunilda",
-            "apellidos": "Salvatierra Roldán",
+            "apellidos": "Salvatierra Roldan",
             "direccion": "Diagonal 15 #30-56",
             "telefono": "311 345 6789",
             "acudiente": {
                 "nombres": "Gregorio",
-                "apellidos": "Roldán Cuevas",
+                "apellidos": "Roldan Cuevas",
                 "telefono": "319 876 5432"
             },
             "jornada": 1
@@ -2272,12 +2272,12 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Filiberto",
-            "apellidos": "Mancilla Arévalo",
+            "apellidos": "Mancilla Arevalo",
             "direccion": "Calle 77 #5-12",
             "telefono": "315 123 4567",
             "acudiente": {
                 "nombres": "Vicente",
-                "apellidos": "Arévalo Luján",
+                "apellidos": "Arevalo Lujan",
                 "telefono": "314 987 6543"
             },
             "jornada": 1
@@ -2287,12 +2287,12 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Margarita",
-            "apellidos": "Quintero Beltrán",
+            "apellidos": "Quintero Beltran",
             "direccion": "Carrera 10 #33-21",
             "telefono": "318 432 1098",
             "acudiente": {
                 "nombres": "Rogelio",
-                "apellidos": "Beltrán Montes",
+                "apellidos": "Beltran Montes",
                 "telefono": "320 678 4321"
             },
             "jornada": 2
@@ -2307,7 +2307,7 @@
             "telefono": "311 567 8901",
             "acudiente": {
                 "nombres": "Clara",
-                "apellidos": "Montejo Ríos",
+                "apellidos": "Montejo Rios",
                 "telefono": "317 890 1234"
             },
             "jornada": 3
@@ -2322,22 +2322,22 @@
             "telefono": "320 654 3210",
             "acudiente": {
                 "nombres": "Norma",
-                "apellidos": "Ferrer López",
+                "apellidos": "Ferrer Lopez",
                 "telefono": "318 765 4321"
             },
             "jornada": 2
         },
         {
             "id": 157,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Rufina",
-            "apellidos": "Guzmán Perales",
+            "apellidos": "Guzman Perales",
             "direccion": "Calle 14 #55-76",
             "telefono": "312 345 6789",
             "acudiente": {
                 "nombres": "Horacio",
-                "apellidos": "Perales Guzmán",
+                "apellidos": "Perales Guzman",
                 "telefono": "319 876 5432"
             },
             "jornada": 1
@@ -2347,27 +2347,27 @@
             "estado": "Retirado",
             "riesgo": "Alto",
             "nombres": "Teodoro",
-            "apellidos": "Márquez Cordero",
+            "apellidos": "Marquez Cordero",
             "direccion": "Diagonal 32 #23-98",
             "telefono": "322 987 6543",
             "acudiente": {
                 "nombres": "Mariana",
-                "apellidos": "Cordero Sánchez",
+                "apellidos": "Cordero Sanchez",
                 "telefono": "316 543 2198"
             },
             "jornada": 4
         },
         {
             "id": 159,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Edmundo",
-            "apellidos": "Pérez Quintanilla",
+            "apellidos": "Perez Quintanilla",
             "direccion": "Carrera 100 #45-21",
             "telefono": "315 432 1098",
             "acudiente": {
                 "nombres": "Bernarda",
-                "apellidos": "Quintanilla López",
+                "apellidos": "Quintanilla Lopez",
                 "telefono": "320 678 4321"
             },
             "jornada": 2
@@ -2382,7 +2382,7 @@
             "telefono": "311 678 4321",
             "acudiente": {
                 "nombres": "Francisco",
-                "apellidos": "Salinas Méndez",
+                "apellidos": "Salinas Mendez",
                 "telefono": "317 890 5678"
             },
             "jornada": 3
@@ -2391,8 +2391,8 @@
             "id": 161,
             "estado": "Aprobado",
             "riesgo": "Medio",
-            "nombres": "Julio César",
-            "apellidos": "Beltrán Osorio",
+            "nombres": "Julio Cesar",
+            "apellidos": "Beltran Osorio",
             "direccion": "Carrera 12 #78-90",
             "telefono": "320 987 6543",
             "acudiente": {
@@ -2422,12 +2422,12 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Lorenzo",
-            "apellidos": "Peña Ramírez",
+            "apellidos": "Peña Ramirez",
             "direccion": "Diagonal 19 #56-78",
             "telefono": "322 789 6543",
             "acudiente": {
                 "nombres": "Esteban",
-                "apellidos": "Ramírez Pineda",
+                "apellidos": "Ramirez Pineda",
                 "telefono": "316 543 2109"
             },
             "jornada": 4
@@ -2436,28 +2436,28 @@
             "id": 164,
             "estado": "Aprobado",
             "riesgo": "Alto",
-            "nombres": "José Ricardo",
-            "apellidos": "Navarro Guzmán",
+            "nombres": "Jose Ricardo",
+            "apellidos": "Navarro Guzman",
             "direccion": "Carrera 50 #34-21",
             "telefono": "315 654 1098",
             "acudiente": {
                 "nombres": "Patricia",
-                "apellidos": "Guzmán Herrera",
+                "apellidos": "Guzman Herrera",
                 "telefono": "320 678 9876"
             },
             "jornada": 2
         },
         {
             "id": 165,
-            "estado": "Aprobado",
+            "estado": "Cursando",
             "riesgo": "Medio",
-            "nombres": "Damián Andrés",
-            "apellidos": "Castañeda Luján",
+            "nombres": "Damian Andres",
+            "apellidos": "Castañeda Lujan",
             "direccion": "Calle 40 #12-56",
             "telefono": "311 678 9870",
             "acudiente": {
                 "nombres": "Luisa Fernanda",
-                "apellidos": "Luján Pérez",
+                "apellidos": "Lujan Perez",
                 "telefono": "317 654 1234"
             },
             "jornada": 3
@@ -2482,12 +2482,12 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Ricardo",
-            "apellidos": "Maldonado Téllez",
+            "apellidos": "Maldonado Tellez",
             "direccion": "Diagonal 5 #78-99",
             "telefono": "312 543 2109",
             "acudiente": {
-                "nombres": "María Eugenia",
-                "apellidos": "Téllez Herrera",
+                "nombres": "Maria Eugenia",
+                "apellidos": "Tellez Herrera",
                 "telefono": "319 432 1098"
             },
             "jornada": 1
@@ -2496,7 +2496,7 @@
             "id": 168,
             "estado": "Aprobado",
             "riesgo": "Bajo",
-            "nombres": "César Augusto",
+            "nombres": "Cesar Augusto",
             "apellidos": "Rojas Escobar",
             "direccion": "Avenida 25 #10-34",
             "telefono": "322 654 9871",
@@ -2516,8 +2516,8 @@
             "direccion": "Carrera 77 #23-67",
             "telefono": "315 210 9876",
             "acudiente": {
-                "nombres": "Sofía",
-                "apellidos": "Fuentes Roldán",
+                "nombres": "Sofia",
+                "apellidos": "Fuentes Roldan",
                 "telefono": "320 432 7654"
             },
             "jornada": 2
@@ -2542,12 +2542,12 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Adriana Paola",
-            "apellidos": "Zamora Barragán",
+            "apellidos": "Zamora Barragan",
             "direccion": "Carrera 19 #56-78",
             "telefono": "320 876 5432",
             "acudiente": {
                 "nombres": "Luis Fernando",
-                "apellidos": "Barragán Pineda",
+                "apellidos": "Barragan Pineda",
                 "telefono": "318 345 6789"
             },
             "jornada": 2
@@ -2557,7 +2557,7 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Esteban",
-            "apellidos": "Gutiérrez Montoya",
+            "apellidos": "Gutierrez Montoya",
             "direccion": "Diagonal 7 #45-99",
             "telefono": "312 543 2109",
             "acudiente": {
@@ -2572,12 +2572,12 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Carmen Elena",
-            "apellidos": "Molina Cárdenas",
+            "apellidos": "Molina Cardenas",
             "direccion": "Avenida 33 #10-34",
             "telefono": "322 654 9871",
             "acudiente": {
                 "nombres": "Javier",
-                "apellidos": "Cárdenas Medina",
+                "apellidos": "Cardenas Medina",
                 "telefono": "316 789 4562"
             },
             "jornada": 4
@@ -2592,14 +2592,14 @@
             "telefono": "315 210 9876",
             "acudiente": {
                 "nombres": "Margarita",
-                "apellidos": "Rivas Guzmán",
+                "apellidos": "Rivas Guzman",
                 "telefono": "320 432 7654"
             },
             "jornada": 2
         },
         {
             "id": 175,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Ismael",
             "apellidos": "Velasco Quiroga",
@@ -2617,12 +2617,12 @@
             "estado": "Cursando",
             "riesgo": "Medio",
             "nombres": "Magdalena Alejandra",
-            "apellidos": "Soto Beltrán",
+            "apellidos": "Soto Beltran",
             "direccion": "Carrera 30 #56-89",
             "telefono": "320 876 5432",
             "acudiente": {
                 "nombres": "Gustavo",
-                "apellidos": "Beltrán Pineda",
+                "apellidos": "Beltran Pineda",
                 "telefono": "318 345 6789"
             },
             "jornada": 2
@@ -2630,7 +2630,7 @@
         {
             "id": 177,
             "estado": "Cursando",
-            "riesgo": "Bajo",
+            "riesgo": "Alto",
             "nombres": "Rodrigo",
             "apellidos": "Herrera Londoño",
             "direccion": "Diagonal 9 #78-90",
@@ -2647,12 +2647,12 @@
             "estado": "Retirado",
             "riesgo": "Alto",
             "nombres": "Andrea Carolina",
-            "apellidos": "Mejía Suárez",
+            "apellidos": "Mejia Suarez",
             "direccion": "Avenida 15 #34-56",
             "telefono": "322 654 9871",
             "acudiente": {
                 "nombres": "Fernando",
-                "apellidos": "Suárez Medina",
+                "apellidos": "Suarez Medina",
                 "telefono": "316 789 4562"
             },
             "jornada": 4
@@ -2662,12 +2662,12 @@
             "estado": "Cursando",
             "riesgo": "Alto",
             "nombres": "Guillermo",
-            "apellidos": "Ortega Ramírez",
+            "apellidos": "Ortega Ramirez",
             "direccion": "Carrera 85 #12-34",
             "telefono": "315 210 9876",
             "acudiente": {
                 "nombres": "Raquel",
-                "apellidos": "Ramírez Herrera",
+                "apellidos": "Ramirez Herrera",
                 "telefono": "320 432 7654"
             },
             "jornada": 2
@@ -2691,7 +2691,7 @@
             "id": 181,
             "estado": "Aprobado",
             "riesgo": "Medio",
-            "nombres": "Rosalía Fernanda",
+            "nombres": "Rosalia Fernanda",
             "apellidos": "Quintero Salgado",
             "direccion": "Carrera 10 #78-90",
             "telefono": "320 765 4321",
@@ -2722,12 +2722,12 @@
             "estado": "Retirado",
             "riesgo": "Alto",
             "nombres": "Natalia Alejandra",
-            "apellidos": "Márquez Pineda",
+            "apellidos": "Marquez Pineda",
             "direccion": "Avenida 45 #12-34",
             "telefono": "322 789 0123",
             "acudiente": {
                 "nombres": "Ramiro",
-                "apellidos": "Pineda Guzmán",
+                "apellidos": "Pineda Guzman",
                 "telefono": "316 876 5432"
             },
             "jornada": 4
@@ -2757,7 +2757,7 @@
             "telefono": "311 567 8901",
             "acudiente": {
                 "nombres": "Leticia",
-                "apellidos": "Salinas Guzmán",
+                "apellidos": "Salinas Guzman",
                 "telefono": "317 432 1098"
             },
             "jornada": 3
@@ -2771,7 +2771,7 @@
             "direccion": "Carrera 22 #45-67",
             "telefono": "320 654 3210",
             "acudiente": {
-                "nombres": "Julián",
+                "nombres": "Julian",
                 "apellidos": "Quintana Rojas",
                 "telefono": "318 567 4321"
             },
@@ -2779,10 +2779,10 @@
         },
         {
             "id": 187,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
-            "nombres": "Camilo Andrés",
-            "apellidos": "López Figueroa",
+            "nombres": "Camilo Andres",
+            "apellidos": "Lopez Figueroa",
             "direccion": "Diagonal 12 #67-89",
             "telefono": "312 789 0123",
             "acudiente": {
@@ -2794,10 +2794,10 @@
         },
         {
             "id": 188,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Daniela Fernanda",
-            "apellidos": "Pérez Villalba",
+            "apellidos": "Perez Villalba",
             "direccion": "Avenida 56 #23-45",
             "telefono": "322 321 0987",
             "acudiente": {
@@ -2812,12 +2812,12 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Ernesto",
-            "apellidos": "Suárez Padilla",
+            "apellidos": "Suarez Padilla",
             "direccion": "Carrera 88 #12-34",
             "telefono": "315 987 6543",
             "acudiente": {
                 "nombres": "Rosa",
-                "apellidos": "Padilla Guzmán",
+                "apellidos": "Padilla Guzman",
                 "telefono": "320 345 6789"
             },
             "jornada": 2
@@ -2826,7 +2826,7 @@
             "id": 190,
             "estado": "Aprobado",
             "riesgo": "Bajo",
-            "nombres": "Fabián",
+            "nombres": "Fabian",
             "apellidos": "Herrera Salgado",
             "direccion": "Calle 44 #67-89",
             "telefono": "311 890 1234",
@@ -2857,12 +2857,12 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Esteban",
-            "apellidos": "Guzmán López",
+            "apellidos": "Guzman Lopez",
             "direccion": "Diagonal 14 #23-56",
             "telefono": "312 987 6540",
             "acudiente": {
-                "nombres": "María Eugenia",
-                "apellidos": "López Ramírez",
+                "nombres": "Maria Eugenia",
+                "apellidos": "Lopez Ramirez",
                 "telefono": "319 210 8765"
             },
             "jornada": 1
@@ -2876,7 +2876,7 @@
             "direccion": "Avenida 67 #45-78",
             "telefono": "322 210 5432",
             "acudiente": {
-                "nombres": "Hernán",
+                "nombres": "Hernan",
                 "apellidos": "Villalobos Ortega",
                 "telefono": "316 678 9012"
             },
@@ -2886,8 +2886,8 @@
             "id": 194,
             "estado": "Aprobado",
             "riesgo": "Alto",
-            "nombres": "Germán",
-            "apellidos": "Ramírez Salinas",
+            "nombres": "German",
+            "apellidos": "Ramirez Salinas",
             "direccion": "Carrera 99 #34-56",
             "telefono": "315 432 1098",
             "acudiente": {
@@ -2901,13 +2901,13 @@
             "id": 195,
             "estado": "Aprobado",
             "riesgo": "Bajo",
-            "nombres": "Joaquín",
+            "nombres": "Joaquin",
             "apellidos": "Valderrama Cifuentes",
             "direccion": "Calle 55 #12-34",
             "telefono": "311 987 6543",
             "acudiente": {
                 "nombres": "Laura",
-                "apellidos": "Cifuentes Ramírez",
+                "apellidos": "Cifuentes Ramirez",
                 "telefono": "317 234 5678"
             },
             "jornada": 3
@@ -2929,15 +2929,15 @@
         },
         {
             "id": 197,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
-            "nombres": "Cristóbal",
+            "nombres": "Cristobal",
             "apellidos": "Pineda Salinas",
             "direccion": "Diagonal 23 #67-89",
             "telefono": "312 210 8765",
             "acudiente": {
                 "nombres": "Beatriz",
-                "apellidos": "Salinas Gómez",
+                "apellidos": "Salinas Gomez",
                 "telefono": "319 987 6543"
             },
             "jornada": 1
@@ -2947,7 +2947,7 @@
             "estado": "Retirado",
             "riesgo": "Alto",
             "nombres": "Margarita Alejandra",
-            "apellidos": "Gómez Villanueva",
+            "apellidos": "Gomez Villanueva",
             "direccion": "Avenida 45 #12-34",
             "telefono": "322 678 5432",
             "acudiente": {
@@ -2959,7 +2959,7 @@
         },
         {
             "id": 199,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Gustavo",
             "apellidos": "Zapata Herrera",
@@ -2967,22 +2967,22 @@
             "telefono": "315 543 2109",
             "acudiente": {
                 "nombres": "Dora",
-                "apellidos": "Herrera Guzmán",
+                "apellidos": "Herrera Guzman",
                 "telefono": "320 876 5432"
             },
             "jornada": 2
         },
         {
             "id": 200,
-            "estado": "Cursando",
+            "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Leonardo",
-            "apellidos": "Martínez Rojas",
+            "apellidos": "Martinez Rojas",
             "direccion": "Calle 12 #34-56",
             "telefono": "311 234 5678",
             "acudiente": {
                 "nombres": "Margarita",
-                "apellidos": "Rojas Pérez",
+                "apellidos": "Rojas Perez",
                 "telefono": "317 456 7890"
             },
             "jornada": 3
@@ -2992,12 +2992,12 @@
             "estado": "Inscrito",
             "riesgo": "Medio",
             "nombres": "Camila Andrea",
-            "apellidos": "Fernández Quintana",
+            "apellidos": "Fernandez Quintana",
             "direccion": "Carrera 45 #67-89",
             "telefono": "320 678 1234",
             "acudiente": {
                 "nombres": "Rodrigo",
-                "apellidos": "Quintana López",
+                "apellidos": "Quintana Lopez",
                 "telefono": "318 890 5678"
             },
             "jornada": 2
@@ -3007,12 +3007,12 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Santiago",
-            "apellidos": "González Salazar",
+            "apellidos": "Gonzalez Salazar",
             "direccion": "Diagonal 78 #12-34",
             "telefono": "312 345 6789",
             "acudiente": {
-                "nombres": "Ana María",
-                "apellidos": "Salazar Méndez",
+                "nombres": "Ana Maria",
+                "apellidos": "Salazar Mendez",
                 "telefono": "319 567 8901"
             },
             "jornada": 1
@@ -3042,7 +3042,7 @@
             "telefono": "315 012 3456",
             "acudiente": {
                 "nombres": "Diana",
-                "apellidos": "Herrera Guzmán",
+                "apellidos": "Herrera Guzman",
                 "telefono": "320 234 5678"
             },
             "jornada": 2
@@ -3051,7 +3051,7 @@
             "id": 205,
             "estado": "Aprobado",
             "riesgo": "Bajo",
-            "nombres": "Martín",
+            "nombres": "Martin",
             "apellidos": "Ortega Valderrama",
             "direccion": "Calle 67 #45-23",
             "telefono": "311 890 1234",
@@ -3067,12 +3067,12 @@
             "estado": "Aprobado",
             "riesgo": "Medio",
             "nombres": "Juliana Andrea",
-            "apellidos": "Pérez Ramírez",
+            "apellidos": "Perez Ramirez",
             "direccion": "Carrera 78 #12-45",
             "telefono": "320 987 6543",
             "acudiente": {
                 "nombres": "Fernando",
-                "apellidos": "Ramírez Herrera",
+                "apellidos": "Ramirez Herrera",
                 "telefono": "318 765 1234"
             },
             "jornada": 2
@@ -3082,7 +3082,7 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Gabriel",
-            "apellidos": "Rodríguez Salazar",
+            "apellidos": "Rodriguez Salazar",
             "direccion": "Diagonal 45 #67-89",
             "telefono": "312 678 5432",
             "acudiente": {
@@ -3096,13 +3096,13 @@
             "id": 208,
             "estado": "Aprobado",
             "riesgo": "Alto",
-            "nombres": "Camilo Andrés",
-            "apellidos": "Guzmán Torres",
+            "nombres": "Camilo Andres",
+            "apellidos": "Guzman Torres",
             "direccion": "Avenida 90 #34-12",
             "telefono": "322 543 2109",
             "acudiente": {
                 "nombres": "Patricia",
-                "apellidos": "Torres Gómez",
+                "apellidos": "Torres Gomez",
                 "telefono": "316 678 9012"
             },
             "jornada": 4
@@ -3117,7 +3117,7 @@
             "telefono": "315 987 6543",
             "acudiente": {
                 "nombres": "Dolores",
-                "apellidos": "Herrera Ramírez",
+                "apellidos": "Herrera Ramirez",
                 "telefono": "320 765 4321"
             },
             "jornada": 2
@@ -3141,7 +3141,7 @@
     "coordinadores": [
         {
             "nombres": "Mariana",
-            "apellidos": "López Ramírez",
+            "apellidos": "Lopez Ramirez",
             "usuario": "Mariana.Coordinador",
             "contraseña": "cm_4567*"
         }

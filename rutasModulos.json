@@ -2,14 +2,14 @@
     "rutas": [
         {
             "Java": [
-                "Intro",
+                "Introducción a la programación",
                 "Python",
                 "HTML/CSS",
                 "Scrum",
                 "Git",
                 "JavaScript",
-                "Intro back",
-                "Intro BBDD",
+                "Introducción al backend",
+                "Introducción a las bases de datos",
                 "MySQL",
                 "Java",
                 "PostgreSQL",
@@ -18,14 +18,14 @@
         },
         {
             "NodeJS": [
-                "Intro",
+                "Introducción a la programación",
                 "Python",
                 "HTML/CSS",
                 "Scrum",
                 "Git",
                 "JavaScript",
-                "Intro back",
-                "Intro BBDD",
+                "Introducción al backend",
+                "Introducción a las bases de datos",
                 "MongoDB",
                 "JavaScript",
                 "MySQL",
@@ -34,14 +34,14 @@
         },
         {
             ".Net": [
-                "Intro",
+                "Introducción a la programación",
                 "Python",
                 "HTML/CSS",
                 "Scrum",
                 "Git",
                 "JavaScript",
-                "Intro back",
-                "Intro BBDD",
+                "Introducción al backend",
+                "Introducción a las bases de datos",
                 "MySQL",
                 "C#",
                 "PostgreSQL",
