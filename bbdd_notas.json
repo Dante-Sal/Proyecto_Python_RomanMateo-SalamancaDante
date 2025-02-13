@@ -67,53 +67,61 @@
                 "proyecto": 60,
                 "filtro": 80,
                 "otros": 100,
-                "notaFinal": 70.0
+                "notaFinal": 70
             },
             "Python": {
                 "proyecto": 100,
                 "filtro": 100,
                 "otros": 100,
-                "notaFinal": 100.0
+                "notaFinal": 100
             },
             "HTML/CSS": {
-                "proyecto": "",
-                "filtro": "",
-                "otros": ""
+                "proyecto": 100,
+                "filtro": 50,
+                "otros": 45,
+                "notaFinal": 80
             },
             "Scrum": {
-                "proyecto": "",
-                "filtro": "",
-                "otros": ""
+                "proyecto": 80,
+                "filtro": 100,
+                "otros": 20,
+                "notaFinal": 80
             },
             "Git": {
-                "proyecto": "",
-                "filtro": "",
-                "otros": ""
+                "proyecto": 67,
+                "filtro": 30,
+                "otros": 25,
+                "notaFinal": 52
             },
             "JavaScript": {
-                "proyecto": "",
-                "filtro": "",
-                "otros": ""
+                "proyecto": 20,
+                "filtro": 10,
+                "otros": 8,
+                "notaFinal": 16
             },
             "Introduccion al backend": {
-                "proyecto": "",
-                "filtro": "",
-                "otros": ""
+                "proyecto": 10,
+                "filtro": 23,
+                "otros": 45,
+                "notaFinal": 17
             },
             "Introduccion a las bases de datos": {
-                "proyecto": "",
-                "filtro": "",
-                "otros": ""
+                "proyecto": 100,
+                "filtro": 100,
+                "otros": 100,
+                "notaFinal": 100
             },
             "MongoDB": {
-                "proyecto": "",
-                "filtro": "",
-                "otros": ""
+                "proyecto": 34,
+                "filtro": 58,
+                "otros": 13,
+                "notaFinal": 39
             },
             "MySQL": {
-                "proyecto": "",
-                "filtro": "",
-                "otros": ""
+                "proyecto": 100,
+                "filtro": 100,
+                "otros": 100,
+                "notaFinal": 100
             },
             "Express": {
                 "proyecto": "",
@@ -550,7 +558,7 @@
             }
         }
     },
-    "Camila Alejandra Rodriguez Peña": {
+    "Camila Alejandra Rodriguez Pena": {
         "Java": {
             "Introduccion a la programacion": {
                 "proyecto": "",
@@ -29281,7 +29289,7 @@
             }
         }
     },
-    "Lorenzo Peña Ramirez": {
+    "Lorenzo Pena Ramirez": {
         "Java": {
             "Introduccion a la programacion": {
                 "proyecto": "",
@@ -29647,7 +29655,7 @@
             }
         }
     },
-    "Damian Andres Castañeda Lujan": {
+    "Damian Andres Castaneda Lujan": {
         "Java": {
             "Introduccion a la programacion": {
                 "proyecto": "",
@@ -31294,7 +31302,7 @@
             }
         }
     },
-    "Fernando Castaño Rivas": {
+    "Fernando Castano Rivas": {
         "Java": {
             "Introduccion a la programacion": {
                 "proyecto": "",
@@ -31843,7 +31851,7 @@
             }
         }
     },
-    "Rodrigo Herrera Londoño": {
+    "Rodrigo Herrera Londono": {
         "Java": {
             "Introduccion a la programacion": {
                 "proyecto": "",
@@ -32759,7 +32767,7 @@
             }
         }
     },
-    "Santiago Montenegro Castaño": {
+    "Santiago Montenegro Castano": {
         "Java": {
             "Introduccion a la programacion": {
                 "proyecto": "",
@@ -34772,7 +34780,7 @@
             }
         }
     },
-    "Liliana Fernanda Peña Villalobos": {
+    "Liliana Fernanda Pena Villalobos": {
         "Java": {
             "Introduccion a la programacion": {
                 "proyecto": "",
@@ -37883,7 +37891,7 @@
             }
         }
     },
-    "Juan Fernando Umaña": {
+    "Juan Fernando Umana": {
         "Java": {
             "Introduccion a la programacion": {
                 "proyecto": "",

@@ -65,7 +65,7 @@ def asignarNotasTrainer():
                         dicNotas[camper][ruta][modulo]["filtro"]=notaFiltro
                         notaOtros=int(input("Ingrese la nota final de otras actividades: "))
                         dicNotas[camper][ruta][modulo]["otros"]=notaOtros
-                        notaFinal=notaProyecto*0.6+notaFiltro*0.3+notaOtros*0.1
+                        notaFinal=round(notaProyecto*0.6+notaFiltro*0.3+notaOtros*0.1)
                         dicNotas[camper][ruta][modulo]["notaFinal"]=notaFinal
                         total=0
                         suma=0
@@ -91,5 +91,15 @@ def asignarNotasTrainer():
                                 if (f"{dicMembers['campers'][j]['nombres']} {dicMembers['campers'][j]['apellidos']}")==camper:
                                     dicMembers["campers"][j]["riesgo"]="Bajo"
                                     print(f"Riesgo del camper {dicMembers['campers'][j]['nombres']} actualizado a {dicMembers['campers'][j]['riesgo']}")
+                        if c+1==len(dicNotas[camper][ruta]):
+                            for j in range(len(dicMembers["campers"])):
+                                if camper==f"{dicMembers['campers'][j]['nombres']} {dicMembers['campers'][j]['apellidos']}":
+                                    dicMembers["campers"][j]["estado"]="Graduado"
+                                    dicSalonesGrupos["grupos"][opcionGrupo]["miembros"].remove(camper)
+                                    guardarSalonesGruposJSON(dicSalonesGrupos)
+                                    guardarMembersJSON(dicMembers)
+                                    guardarNotasJSON(dicNotas)
+                                    exit()
+    guardarSalonesGruposJSON(dicSalonesGrupos)
     guardarMembersJSON(dicMembers)
     guardarNotasJSON(dicNotas)

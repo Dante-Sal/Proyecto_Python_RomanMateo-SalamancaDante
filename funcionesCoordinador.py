@@ -41,6 +41,7 @@ def asignarNotas():
 
 #Crea función
 def asignarGrupos():
+    o=False
     now=datetime.now()
     #Crea grupos vacíos para guardar las jornadas
     w=[];x=[];y=[];z=[]
@@ -57,9 +58,147 @@ def asignarGrupos():
                 dicSalonesGrupos["grupos"]["y"]={}
             elif q==0 and p==3:
                 dicSalonesGrupos["grupos"]["z"]={}
+            
+            for grupo in dicSalonesGrupos["grupos"]:
+                if len(grupo)==2 and len(dicSalonesGrupos["grupos"][grupo]["miembros"])<33 and dicSalonesGrupos["grupos"][grupo]["jornada"]==1:
+                    w.extend(dicSalonesGrupos["grupos"][grupo]["miembros"])
+                    dicSalonesGrupos["grupos"]["w"]=dicSalonesGrupos["grupos"][grupo]
+                    guardarSalonesGruposJSON(dicSalonesGrupos)
+                    jornadaGrupo=dicSalonesGrupos["grupos"][grupo]["jornada"]
+                    if len(dicSalonesGrupos["grupos"][grupo]["trainer"].split(" "))==3:
+                        nombresTrainer=dicSalonesGrupos["grupos"][grupo]["trainer"].split(" ")[0]
+                        apellidosTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split(" ")[1],dicSalonesGrupos["grupos"][grupo]["trainer"].split(" ")[2]]
+                        apellidosTrainer=" ".join(apellidosTrainer)
+                    elif len(dicSalonesGrupos["grupos"][grupo]["trainer"].split(" "))==4:
+                        nombresTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split(" ")[0],dicSalonesGrupos["grupos"][grupo]["trainer"].split(" ")[1]]
+                        nombresTrainer=" ".join(nombresTrainer)
+                        apellidosTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split(" ")[2],dicSalonesGrupos["grupos"][grupo]["trainer"].split(" ")[3]]
+                        apellidosTrainer=" ".join(apellidosTrainer)
+                    for m in range(len(dicMembers["trainers"])):
+                        if dicMembers["trainers"][m]["nombres"]==nombresTrainer and dicMembers["trainers"][m]["apellidos"]==apellidosTrainer:
+                            dicMembers["trainers"][m]["jornadasDisponibles"][jornadaGrupo-1]=jornadaGrupo
+                            guardarMembersJSON(dicMembers)
+                    if grupo in dicSalonesGrupos["salones"]["Artemis"]:
+                        dicSalonesGrupos["salones"]["Artemis"][0]="w"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    elif grupo in dicSalonesGrupos["salones"]["Sputnik"]:
+                        dicSalonesGrupos["salones"]["Sputnik"][0]="w"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    elif grupo in dicSalonesGrupos["salones"]["Apolo"]:
+                        dicSalonesGrupos["salones"]["Apolo"][0]="w"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    del(dicSalonesGrupos["grupos"][grupo])
+                    guardarSalonesGruposJSON(dicSalonesGrupos)
+                break
+            for grupo in dicSalonesGrupos["grupos"]:
+                if len(grupo)==2 and len(dicSalonesGrupos["grupos"][grupo]["miembros"])<33 and dicSalonesGrupos["grupos"][grupo]["jornada"]==2:
+                    x.extend(dicSalonesGrupos["grupos"][grupo]["miembros"])
+                    dicSalonesGrupos["grupos"]["x"]=dicSalonesGrupos["grupos"][grupo]
+                    guardarSalonesGruposJSON(dicSalonesGrupos)
+                    jornadaGrupo=dicSalonesGrupos["grupos"][grupo]["jornada"]
+                    if len(dicSalonesGrupos["grupos"][grupo]["trainer"].split())==3:
+                        nombresTrainer=dicSalonesGrupos["grupos"][grupo]["trainer"].split()[0]
+                        apellidosTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split()[1],dicSalonesGrupos["grupos"][grupo]["trainer"].split()[2]]
+                        apellidosTrainer=" ".join(apellidosTrainer)
+                    elif len(dicSalonesGrupos["grupos"][grupo]["trainer"].split())==4:
+                        nombresTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split()[0],dicSalonesGrupos["grupos"][grupo]["trainer"].split()[1]]
+                        nombresTrainer=" ".join(nombresTrainer)
+                        apellidosTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split()[2],dicSalonesGrupos["grupos"][grupo]["trainer"].split()[3]]
+                        apellidosTrainer=" ".join(apellidosTrainer)
+                    for m in range(len(dicMembers["trainers"])):
+                        if dicMembers["trainers"][m]["nombres"]==nombresTrainer and dicMembers["trainers"][m]["apellidos"]==apellidosTrainer:
+                            dicMembers["trainers"][m]["jornadasDisponibles"][jornadaGrupo-1]=jornadaGrupo
+                            guardarMembersJSON(dicMembers)
+                    if grupo in dicSalonesGrupos["salones"]["Artemis"]:
+                        dicSalonesGrupos["salones"]["Artemis"][1]="x"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    elif grupo in dicSalonesGrupos["salones"]["Sputnik"]:
+                        dicSalonesGrupos["salones"]["Sputnik"][1]="x"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    elif grupo in dicSalonesGrupos["salones"]["Apolo"]:
+                        dicSalonesGrupos["salones"]["Apolo"][1]="x"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    del(dicSalonesGrupos["grupos"][grupo])
+                    guardarSalonesGruposJSON(dicSalonesGrupos)
+                break
+            for grupo in dicSalonesGrupos["grupos"]:
+                if len(grupo)==2 and len(dicSalonesGrupos["grupos"][grupo]["miembros"])<33 and dicSalonesGrupos["grupos"][grupo]["jornada"]==3:
+                    y.extend(dicSalonesGrupos["grupos"][grupo]["miembros"])
+                    dicSalonesGrupos["grupos"]["y"]=dicSalonesGrupos["grupos"][grupo]
+                    guardarSalonesGruposJSON(dicSalonesGrupos)
+                    jornadaGrupo=dicSalonesGrupos["grupos"][grupo]["jornada"]
+                    if len(dicSalonesGrupos["grupos"][grupo]["trainer"].split())==3:
+                        nombresTrainer=dicSalonesGrupos["grupos"][grupo]["trainer"].split()[0]
+                        apellidosTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split()[1],dicSalonesGrupos["grupos"][grupo]["trainer"].split()[2]]
+                        apellidosTrainer=" ".join(apellidosTrainer)
+                    elif len(dicSalonesGrupos["grupos"][grupo]["trainer"].split())==4:
+                        nombresTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split()[0],dicSalonesGrupos["grupos"][grupo]["trainer"].split()[1]]
+                        nombresTrainer=" ".join(nombresTrainer)
+                        apellidosTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split()[2],dicSalonesGrupos["grupos"][grupo]["trainer"].split()[3]]
+                        apellidosTrainer=" ".join(apellidosTrainer)
+                    for m in range(len(dicMembers["trainers"])):
+                        if dicMembers["trainers"][m]["nombres"]==nombresTrainer and dicMembers["trainers"][m]["apellidos"]==apellidosTrainer:
+                            dicMembers["trainers"][m]["jornadasDisponibles"][jornadaGrupo-1]=jornadaGrupo
+                            guardarMembersJSON(dicMembers)
+                    if grupo in dicSalonesGrupos["salones"]["Artemis"]:
+                        dicSalonesGrupos["salones"]["Artemis"][2]="y"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    elif grupo in dicSalonesGrupos["salones"]["Sputnik"]:
+                        dicSalonesGrupos["salones"]["Sputnik"][2]="y"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    elif grupo in dicSalonesGrupos["salones"]["Apolo"]:
+                        dicSalonesGrupos["salones"]["Apolo"][2]="y"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    del(dicSalonesGrupos["grupos"][grupo])
+                    guardarSalonesGruposJSON(dicSalonesGrupos)
+                break
+            for grupo in dicSalonesGrupos["grupos"]:
+                if len(grupo)==2 and len(dicSalonesGrupos["grupos"][grupo]["miembros"])<33 and dicSalonesGrupos["grupos"][grupo]["jornada"]==4:
+                    z.extend(dicSalonesGrupos["grupos"][grupo]["miembros"])
+                    dicSalonesGrupos["grupos"]["z"]=dicSalonesGrupos["grupos"][grupo]
+                    guardarSalonesGruposJSON(dicSalonesGrupos)
+                    jornadaGrupo=dicSalonesGrupos["grupos"][grupo]["jornada"]
+                    if len(dicSalonesGrupos["grupos"][grupo]["trainer"].split())==3:
+                        nombresTrainer=dicSalonesGrupos["grupos"][grupo]["trainer"].split()[0]
+                        apellidosTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split()[1],dicSalonesGrupos["grupos"][grupo]["trainer"].split()[2]]
+                        apellidosTrainer=" ".join(apellidosTrainer)
+                    elif len(dicSalonesGrupos["grupos"][grupo]["trainer"].split())==4:
+                        nombresTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split()[0],dicSalonesGrupos["grupos"][grupo]["trainer"].split()[1]]
+                        nombresTrainer=" ".join(nombresTrainer)
+                        apellidosTrainer=[dicSalonesGrupos["grupos"][grupo]["trainer"].split()[2],dicSalonesGrupos["grupos"][grupo]["trainer"].split()[3]]
+                        apellidosTrainer=" ".join(apellidosTrainer)
+                    for m in range(len(dicMembers["trainers"])):
+                        if dicMembers["trainers"][m]["nombres"]==nombresTrainer and dicMembers["trainers"][m]["apellidos"]==apellidosTrainer:
+                            dicMembers["trainers"][m]["jornadasDisponibles"][jornadaGrupo-1]=jornadaGrupo
+                            guardarMembersJSON(dicMembers)
+                    if grupo in dicSalonesGrupos["salones"]["Artemis"]:
+                        dicSalonesGrupos["salones"]["Artemis"][3]="z"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    elif grupo in dicSalonesGrupos["salones"]["Sputnik"]:
+                        dicSalonesGrupos["salones"]["Sputnik"][3]="z"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    elif grupo in dicSalonesGrupos["salones"]["Apolo"]:
+                        dicSalonesGrupos["salones"]["Apolo"][3]="z"
+                        guardarSalonesGruposJSON(dicSalonesGrupos)
+                        o=True
+                    del(dicSalonesGrupos["grupos"][grupo])
+                    guardarSalonesGruposJSON(dicSalonesGrupos)
+                break
+            
             guardarSalonesGruposJSON(dicSalonesGrupos)
             #Si el camper está aprobado y su jornada coincide con la actual...
-            if dicMembers["campers"][q]["estado"]=="Cursando" and dicMembers["campers"][q]["jornada"]==p+1:
+            if dicMembers["campers"][q]["estado"]=="Aprobado" and dicMembers["campers"][q]["jornada"]==p+1:
                 #Si es la jornada 1, añade el camper a w, si w tiene menos o igual a 33 campers
                 if p==0:
                     if len(w)<33:
@@ -122,22 +261,25 @@ def asignarGrupos():
                 #Si el Artemis está vacío...
                 if dicSalonesGrupos["salones"]["Artemis"][p]=="":
                     #Le asigna el grupo w a Artemis y le asigna el salón a w
-                    dicSalonesGrupos["salones"]["Artemis"][p]="w"
-                    dicSalonesGrupos["grupos"]["w"]["salon"]="Artemis"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Artemis"][p]="w"
+                        dicSalonesGrupos["grupos"]["w"]["salon"]="Artemis"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Si el Sputnik está vacío...
                 elif dicSalonesGrupos["salones"]["Sputnik"][p]=="":
                     #Le asigna el grupo w a Sputnik y le asigna el salón a w
-                    dicSalonesGrupos["salones"]["Sputnik"][p]="w"
-                    dicSalonesGrupos["grupos"]["w"]["salon"]="Sputnik"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Sputnik"][p]="w"
+                        dicSalonesGrupos["grupos"]["w"]["salon"]="Sputnik"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Si el Apolo está vacío...
                 elif dicSalonesGrupos["salones"]["Apolo"][p]=="":
                     #Le asigna el grupo w a Apolo y le asigna el salón a w
-                    dicSalonesGrupos["salones"]["Apolo"][p]="w"
-                    dicSalonesGrupos["grupos"]["w"]["salon"]="Apolo"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Apolo"][p]="w"
+                        dicSalonesGrupos["grupos"]["w"]["salon"]="Apolo"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Recorre los trainers
@@ -201,22 +343,25 @@ def asignarGrupos():
                 #Si el Artemis está vacío...
                 if dicSalonesGrupos["salones"]["Artemis"][p]=="":
                     #Le asigna el grupo x a Artemis y le asigna el salón a x
-                    dicSalonesGrupos["salones"]["Artemis"][p]="x"
-                    dicSalonesGrupos["grupos"]["x"]["salon"]="Artemis"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Artemis"][p]="x"
+                        dicSalonesGrupos["grupos"]["x"]["salon"]="Artemis"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Si el Sputnik está vacío...
                 elif dicSalonesGrupos["salones"]["Sputnik"][p]=="":
                     #Le asigna el grupo x a Sputnik y le asigna el salón a x
-                    dicSalonesGrupos["salones"]["Sputnik"][p]="x"
-                    dicSalonesGrupos["grupos"]["x"]["salon"]="Sputnik"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Sputnik"][p]="x"
+                        dicSalonesGrupos["grupos"]["x"]["salon"]="Sputnik"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Si el Apolo está vacío...
                 elif dicSalonesGrupos["salones"]["Apolo"][p]=="":
                     #Le asigna el grupo x a Apolo y le asigna el salón a x
-                    dicSalonesGrupos["salones"]["Apolo"][p]="x"
-                    dicSalonesGrupos["grupos"]["x"]["salon"]="Apolo"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Apolo"][p]="x"
+                        dicSalonesGrupos["grupos"]["x"]["salon"]="Apolo"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Recorre los trainers
@@ -280,22 +425,25 @@ def asignarGrupos():
                 #Si el Artemis está vacío...
                 if dicSalonesGrupos["salones"]["Artemis"][p]=="":
                     #Le asigna el grupo y a Artemis y le asigna el salón a y
-                    dicSalonesGrupos["salones"]["Artemis"][p]="y"
-                    dicSalonesGrupos["grupos"]["y"]["salon"]="Artemis"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Artemis"][p]="y"
+                        dicSalonesGrupos["grupos"]["y"]["salon"]="Artemis"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Si el Sputnik está vacío...
                 elif dicSalonesGrupos["salones"]["Sputnik"][p]=="":
                     #Le asigna el grupo y a Sputnik y le asigna el salón a y
-                    dicSalonesGrupos["salones"]["Sputnik"][p]="y"
-                    dicSalonesGrupos["grupos"]["y"]["salon"]="Sputnik"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Sputnik"][p]="y"
+                        dicSalonesGrupos["grupos"]["y"]["salon"]="Sputnik"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Si el Apolo está vacío...    
                 elif dicSalonesGrupos["salones"]["Apolo"][p]=="":
                     #Le asigna el grupo y a Apolo y le asigna el salón a y
-                    dicSalonesGrupos["salones"]["Apolo"][p]="y"
-                    dicSalonesGrupos["grupos"]["y"]["salon"]="Apolo"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Apolo"][p]="y"
+                        dicSalonesGrupos["grupos"]["y"]["salon"]="Apolo"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Recorre los trainers
@@ -359,22 +507,25 @@ def asignarGrupos():
                 #Si el Artemis está vacío...
                 if dicSalonesGrupos["salones"]["Artemis"][p]=="":
                     #Le asigna el grupo z a Artemis y le asigna el salón a z
-                    dicSalonesGrupos["salones"]["Artemis"][p]="z"
-                    dicSalonesGrupos["grupos"]["z"]["salon"]="Artemis"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Artemis"][p]="z"
+                        dicSalonesGrupos["grupos"]["z"]["salon"]="Artemis"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Si el Sputnik está vacío...
                 elif dicSalonesGrupos["salones"]["Sputnik"][p]=="":
                     #Le asigna el grupo z a Sputnik y le asigna el salón a z
-                    dicSalonesGrupos["salones"]["Sputnik"][p]="z"
-                    dicSalonesGrupos["grupos"]["z"]["salon"]="Sputnik"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Sputnik"][p]="z"
+                        dicSalonesGrupos["grupos"]["z"]["salon"]="Sputnik"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Si el Apolo está vacío...    
                 elif dicSalonesGrupos["salones"]["Apolo"][p]=="":
                     #Le asigna el grupo z a Apolo y le asigna el salón a z
-                    dicSalonesGrupos["salones"]["Apolo"][p]="z"
-                    dicSalonesGrupos["grupos"]["z"]["salon"]="Apolo"
+                    if o==False:
+                        dicSalonesGrupos["salones"]["Apolo"][p]="z"
+                        dicSalonesGrupos["grupos"]["z"]["salon"]="Apolo"
                     guardarSalonesGruposJSON(dicSalonesGrupos)
 
                 #Recorre los trainers
@@ -429,3 +580,16 @@ def asignarGrupos():
     w=[];x=[];y=[];z=[]
     #Guarda los datos en la base de datos
     guardarSalonesGruposJSON(dicSalonesGrupos)
+
+def inicio_sesion_coordinador():
+    usuario=input("Indica tu usuario de coordinador: ")
+    contrasena=input("Indica tu contraseña: ")
+
+    for i in range(len(dicMembers["coordinadores"])):
+            
+        if dicMembers["coordinadores"][i]["usuario"] == usuario and dicMembers["coordinadores"][i]["contrasena"] == contrasena:
+            print("Inicio de sesión exitoso ✅")
+            return True
+        else:
+            print("Usuario o contraseña incorrecta ❌")
+            return False

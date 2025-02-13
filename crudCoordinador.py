@@ -18,11 +18,23 @@ def guardarRutasJSON(dic):
     with open("./rutasModulos.json","w") as outFile:
         json.dump(dic,outFile, indent=4, ensure_ascii=False)
 
-dicRutas={}
-dicRutas=abrirRutasJSON()
-        
+def abrirSalonesGruposJSON():
+    with open("./bbdd_salones_grupos.json","r") as openFile:
+        dicFinal=json.load(openFile)
+    return dicFinal
+
+def guardarSalonesGruposJSON(dic):
+    with open("./bbdd_salones_grupos.json","w") as outFile:
+        json.dump(dic,outFile, indent=4, ensure_ascii=False)
+
 dicMembers={}
 dicMembers=abrirMembersJSON()
+
+dicRutas={}
+dicRutas=abrirRutasJSON()
+
+dicSalonesGrupos={}
+dicSalonesGrupos=abrirSalonesGruposJSON()
 
 def crearCamperTrainerCoordinador():
     agregarCamperTrainer=int(input("\nDeseas agregar un camper o un trainer? (1/2): "))
@@ -237,57 +249,116 @@ def editarCamperTrainerCoordinador():
                                 dicMembers["trainers"][i]["rutas"].append(ruta)
 
 def agregarRutaEntrenamiento():
-    nuevaRutaEntrenamiento=input("Escribe el nombre de la ruta que deseas agregar: ")
-    nuevoModulo1 = input("Escribe el primer modulo de esta ruta: ")
-    nuevoModulo2 = input("Escribe el segundo modulo de la ruta: ")
-    tercerModuloeleccion = input("Hay un tercer modulo?(S/N): ")
-    match tercerModuloeleccion:
-        case "S":
-            nuevoModulo3 = input("Escribe el tercer modulo de la ruta: ")
+    nuevaRuta=input("Escribe el nombre de la ruta que deseas agregar: ")
+    dicRutas[nuevaRuta]={}
+    szRuta=int(input("Escribe la cantidad de módulos de la ruta que deseas agregar: "))
+    for i in range(szRuta):
+        nuevoModulo=input(f"Escribe el nombre del módulo #{i+1}: ")
+        dicRutas[nuevaRuta][nuevoModulo]={"proyecto": "",
+                                          "filtro": "",
+                                          "otros": ""}
+        guardarRutasJSON(dicRutas)
+    print("\nRuta agregada con exito.")
 
-            nuevaRuta = {nuevaRutaEntrenamiento: [
-                nuevoModulo1, nuevoModulo2, nuevoModulo3
-            ]}
-            
-            dicRutas["rutas"].append(nuevaRuta)
-            print ("\nRuta agregada con exito.")
-        case "N":
-            nuevaRuta = {nuevaRutaEntrenamiento: [
-                nuevoModulo1, nuevoModulo2
-            ]}
-
-            dicRutas["rutas"].append(nuevaRuta)
-            print ("\nRuta agregada con exito.")
-    guardarRutasJSON(dicRutas)
-    return ""
-
-def suspenderCamperTrainer ():
-    print("\n1. Suspender Camper.")
-    print("2. Suspender Trainer.")
-    suspCampTrainer = int(input("Elige la opcion a realizar: "))
-    match suspCampTrainer:
+def eliminarCamperTrainer ():
+    print("\n1. Eliminar camper")
+    print("2. Eliminar trainer")
+    delCampTrainer=int(input("Elige la opción a realizar: "))
+    match delCampTrainer:
         case 1:
-            bul = True
-            while bul == True:
-                IDcamperTrainer = int(input("\nIngresa el ID del camper a suspender: "))
+            r=True
+            while r==True:
+                IDcamper=int(input("\nIngresa el ID del camper a eliminar: "))
                 for i in range (len(dicMembers["campers"])):
-                    if i == IDcamperTrainer:
-                        print (f"Estas segur@ de suspender a {dicMembers['campers'][i-1]['nombres']} {dicMembers['campers'][i-1]['apellidos']} de ID: {dicMembers['campers'][i-1]['id']}?")
-                        print("\n1. Si, estoy seguro.")
-                        print("2. No, deseo suspender a otro camper.")
-                        confirmacionSuspenderCamper = input("Confirma la opcion: ")
+                    if i==IDcamper-1:
+                        print (f"¿Estás seguro de eliminar a {dicMembers['campers'][i]['nombres']} {dicMembers['campers'][i]['apellidos']} de ID: {dicMembers['campers'][i]['id']}?")
+                        print("\n1. Sí, estoy seguro")
+                        print("2. No, deseo eliminar a otro camper")
+                        print("3. No, deseo salir del programa")
+                        confirmacionEliminarCamper=int(input("Confirma la opción: "))
 
-                        if confirmacionSuspenderCamper == 1: 
+                        if confirmacionEliminarCamper==1:
                             for camper in dicMembers["campers"]:
-                                if camper["id"] == IDcamperTrainer:
-                                    camper["estado"] = "suspendido"
-                                    bul = False
-                        elif confirmacionSuspenderCamper == 2:
-                            IDcamperTrainer = int(input("\nIngresa el ID del camper a suspender: "))
-                            bul = True
+                                if camper["id"]==IDcamper:
+                                    dicMembers["campers"].pop(IDcamper-1)
+                                    print("Camper eliminado")
+                                    guardarMembersJSON(dicMembers)
+                                    r=False
+                        elif confirmacionEliminarCamper==2:
+                            r=True
                         else:
-                            print("Solo puedes elegir una de las opciones anteriores")
-                            bul = True
+                            r=False
+        case 2:
+            r=True
+            while r==True:
+                IDtrainer=int(input("\nIngresa el ID del trainer a eliminar: "))
+                for i in range (len(dicMembers["trainers"])):
+                    if i==IDtrainer-1:
+                        print (f"¿Estás seguro de eliminar a {dicMembers['trainers'][i]['nombres']} {dicMembers['trainers'][i]['apellidos']} de ID: {dicMembers['trainers'][i]['id']}?")
+                        print("\n1. Sí, estoy seguro")
+                        print("2. No, deseo eliminar a otro trainer")
+                        print("3. No, deseo salir del programa")
+                        confirmacionEliminarTrainer=int(input("Confirma la opción: "))
+
+                        if confirmacionEliminarTrainer==1:
+                            for trainer in dicMembers["trainers"]:
+                                if trainer["id"]==IDtrainer:
+                                    dicMembers["trainers"].pop(IDtrainer-1)
+                                    print("Trainer eliminado")
+                                    guardarMembersJSON(dicMembers)
+                                    r=False
+                        elif confirmacionEliminarTrainer==2: 
+                            r=True
+                        else:
+                            r=False
+                            
+def verCampersTrainers():
+    print("1. Ver listado de campers")
+    print("2. Ver listado de trainers")
+    eleccionVerCamperTrainer=int(input("\n¿Qué deseas ver?: "))
+    match eleccionVerCamperTrainer:
+        case 1:
+            print("\n1. Buscar un camper segun su ID")
+            print("2. Mostrar los campers cursando en un grupo")
+            eleccionVerCamper=int(input("\n¿Qué quieres hacer?: "))
+            if eleccionVerCamper==1:
+                idCamperBuscar=int(input("Ingresa el ID del camper: "))
+                for camper in dicMembers["campers"]:
+                    if camper["id"]==idCamperBuscar:
+                        print(f"Nombre: {camper['nombres']} {camper['apellidos']} / ID: {camper['id']}")
+                        print(f"Dirección: {camper['direccion']} / Teléfono: {camper['telefono']}")
+                        print(f"Estado: {camper['estado']} / Riesgo: {camper['riesgo']}")
+                        print(f"Jornada: {camper['jornada']}")
+            if eleccionVerCamper==2:
+                for grupo in dicSalonesGrupos["grupos"]:
+                    print(f"Grupo {grupo}")
+                verCursoCampers=input("Ingresa el curso del cual quieres ver los campers: ")
+                print("\nCampers:\n")
+                for miembro in dicSalonesGrupos['grupos'][verCursoCampers]['miembros']:
+                    print(f"- {miembro}")
+        case 2:
+            for trainer in dicMembers['trainers']:
+                indiceTrainer=dicMembers["trainers"].index(trainer)
+                print(f"\nNombre: {trainer['nombres']} {trainer['apellidos']} / ID: {trainer['id']}")
+                print("Jornadas Disponibles: ", end="")
+                contCero=0
+                for jornada in dicMembers["trainers"][indiceTrainer]["jornadasDisponibles"]:
+                    if jornada==0:
+                        contCero+=1
+                if contCero==4:
+                    print("Ninguna")
+                else:
+                    contCero=0
+                    jornadas=[]
+                    for jornada in dicMembers["trainers"][indiceTrainer]["jornadasDisponibles"]:
+                        if jornada!=0:
+                            jornadas.append(jornada)
+                    for j in range(len(jornadas)):
+                        if j==len(jornadas)-1:
+                            print(jornadas[j])
+                        else:
+                            print(jornadas[j], end=", ")
+                print(f"Este trainer dicta: {','.join(trainer['rutas'])}")
                             
                 
-                           
+                            

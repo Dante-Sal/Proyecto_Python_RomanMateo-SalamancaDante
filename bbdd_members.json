@@ -77,7 +77,7 @@
         {
             "id": 1,
             "estado": "Cursando",
-            "riesgo": "Bajo",
+            "riesgo": "Medio",
             "nombres": "Mateo",
             "apellidos": "Roman Camargo",
             "direccion": "Calle 60 #1-111",
@@ -124,12 +124,12 @@
             "estado": "Retirado",
             "riesgo": "Bajo",
             "nombres": "Camila Alejandra",
-            "apellidos": "Rodriguez Peña",
+            "apellidos": "Rodriguez Pena",
             "direccion": "Avenida 9 #100-23",
             "telefono": "317 852 9634",
             "acudiente": {
                 "nombres": "Andres",
-                "apellidos": "Peña Jaramillo",
+                "apellidos": "Pena Jaramillo",
                 "telefono": "315 847 0926"
             },
             "jornada": 4
@@ -2138,7 +2138,7 @@
             "riesgo": "Bajo",
             "nombres": "Caelum Thorne",
             "apellidos": "Eros Valtan",
-            "direccion": "Calle de los Sueños #67-89",
+            "direccion": "Calle de los Suenos #67-89",
             "telefono": "350 123 4567",
             "acudiente": {
                 "nombres": "Astra",
@@ -2412,7 +2412,7 @@
             "telefono": "312 234 5678",
             "acudiente": {
                 "nombres": "Roberto Carlos",
-                "apellidos": "Arrieta Muñoz",
+                "apellidos": "Arrieta Munoz",
                 "telefono": "319 876 4321"
             },
             "jornada": 1
@@ -2422,7 +2422,7 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Lorenzo",
-            "apellidos": "Peña Ramirez",
+            "apellidos": "Pena Ramirez",
             "direccion": "Diagonal 19 #56-78",
             "telefono": "322 789 6543",
             "acudiente": {
@@ -2452,7 +2452,7 @@
             "estado": "Cursando",
             "riesgo": "Medio",
             "nombres": "Damian Andres",
-            "apellidos": "Castañeda Lujan",
+            "apellidos": "Castaneda Lujan",
             "direccion": "Calle 40 #12-56",
             "telefono": "311 678 9870",
             "acudiente": {
@@ -2587,7 +2587,7 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Fernando",
-            "apellidos": "Castaño Rivas",
+            "apellidos": "Castano Rivas",
             "direccion": "Carrera 80 #23-67",
             "telefono": "315 210 9876",
             "acudiente": {
@@ -2632,12 +2632,12 @@
             "estado": "Cursando",
             "riesgo": "Alto",
             "nombres": "Rodrigo",
-            "apellidos": "Herrera Londoño",
+            "apellidos": "Herrera Londono",
             "direccion": "Diagonal 9 #78-90",
             "telefono": "312 543 2109",
             "acudiente": {
                 "nombres": "Patricia",
-                "apellidos": "Londoño Zapata",
+                "apellidos": "Londono Zapata",
                 "telefono": "319 432 1098"
             },
             "jornada": 1
@@ -2707,12 +2707,12 @@
             "estado": "Aprobado",
             "riesgo": "Bajo",
             "nombres": "Santiago",
-            "apellidos": "Montenegro Castaño",
+            "apellidos": "Montenegro Castano",
             "direccion": "Diagonal 15 #56-78",
             "telefono": "312 678 9012",
             "acudiente": {
                 "nombres": "Elvira",
-                "apellidos": "Castaño Medina",
+                "apellidos": "Castano Medina",
                 "telefono": "319 987 6543"
             },
             "jornada": 1
@@ -2832,7 +2832,7 @@
             "telefono": "311 890 1234",
             "acudiente": {
                 "nombres": "Luisa",
-                "apellidos": "Salgado Peña",
+                "apellidos": "Salgado Pena",
                 "telefono": "317 543 6789"
             },
             "jornada": 3
@@ -2872,7 +2872,7 @@
             "estado": "Aprobado",
             "riesgo": "Alto",
             "nombres": "Liliana Fernanda",
-            "apellidos": "Peña Villalobos",
+            "apellidos": "Pena Villalobos",
             "direccion": "Avenida 67 #45-78",
             "telefono": "322 210 5432",
             "acudiente": {
@@ -3057,7 +3057,7 @@
             "telefono": "311 890 1234",
             "acudiente": {
                 "nombres": "Gloria",
-                "apellidos": "Valderrama Peña",
+                "apellidos": "Valderrama Pena",
                 "telefono": "317 543 6789"
             },
             "jornada": 3
@@ -3127,12 +3127,12 @@
             "estado": "Inscrito",
             "riesgo": "Bajo",
             "nombres": "Juan Fernando",
-            "apellidos": "Umaña",
+            "apellidos": "Umana",
             "direccion": "Calle 45#34 - 67",
             "telefono": "345 547 4352",
             "acudiente": {
                 "nombres": "Fernanda",
-                "apellidos": "Umaña Gonzalez",
+                "apellidos": "Umana Gonzalez",
                 "telefono": "312 483 4563"
             },
             "jornada": "3"
@@ -3143,7 +3143,7 @@
             "nombres": "Mariana",
             "apellidos": "Lopez Ramirez",
             "usuario": "Mariana.Coordinador",
-            "contraseña": "cm_4567*"
+            "contrasena": "cm_4567*"
         }
     ]
 }

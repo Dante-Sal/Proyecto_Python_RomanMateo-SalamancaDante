@@ -1,9 +1,10 @@
 import json
 from procesarCamper import procesarCamper, procesarCamperIncompleto
 from menu import *
-from funcionesCoordinador import asignarNotas, asignarGrupos
-from crudCoordinador import crearCamperTrainerCoordinador, editarCamperTrainerCoordinador, agregarRutaEntrenamiento, suspenderCamperTrainer
+from funcionesCoordinador import asignarNotas, asignarGrupos, inicio_sesion_coordinador
+from crudCoordinador import crearCamperTrainerCoordinador, editarCamperTrainerCoordinador, agregarRutaEntrenamiento, eliminarCamperTrainer, verCampersTrainers
 from funcionesTrainer import asignarNotasTrainer
+from moduloReportes import moduloReportes
 
 def abrirMembersJSON():
     with open("./bbdd_members.json","r") as openFile:
@@ -31,41 +32,36 @@ match ingresoUsuario:
                     procesarCamper()
                 elif eleccionInscripcion==2:
                     procesarCamperIncompleto()
-            case 2:
-                print()
     case 2:
         MostrarMenudeTrainer()
         eleccionTrainer=int(input("\nElige una opción: "))
         match eleccionTrainer:
             case 1:
-                print()
+                verCampersTrainers()
             case 2:
-                print()
-            case 3:
-                asignarNotasTrainer()
+                asignarNotasTrainer()                
     case 3:
-        MostrarMenudeCoordinador()
-        eleccionCoordinador=int(input("\nElige una opción: \n"))
-        match eleccionCoordinador:
-            case 1:
-                asignarNotas()
-            case 2:
-                asignarGrupos()
-            case 3:
-                MostrarMenuCrudCoordinador()
-                eleccionCRUD=int(input("\n¿Qué deseas realizar?: "))
-                match eleccionCRUD:
-                    case 1:
-                        print()
-                    case 2:
-                        print()
-                        crearCamperTrainerCoordinador()
-                    case 3:
-                        print()
-                        editarCamperTrainerCoordinador()
-                    case 4:
-                        print()
-                        suspenderCamperTrainer()
-                    case 5:
-                        print()
-                        agregarRutaEntrenamiento()
+        if inicio_sesion_coordinador():
+            MostrarMenudeCoordinador()
+            eleccionCoordinador=int(input("\nElige una opción: \n"))
+            match eleccionCoordinador:
+                case 1:
+                    asignarNotas()
+                case 2:
+                    asignarGrupos()
+                case 3:
+                    MostrarMenuCrudCoordinador()
+                    eleccionCRUD=int(input("\n¿Qué deseas realizar?: "))
+                    match eleccionCRUD:
+                        case 1:
+                            verCampersTrainers()
+                        case 2:
+                            crearCamperTrainerCoordinador()
+                        case 3:
+                            editarCamperTrainerCoordinador()
+                        case 4:
+                            eliminarCamperTrainer()
+                        case 5:
+                            agregarRutaEntrenamiento()
+                case 4:
+                    moduloReportes()

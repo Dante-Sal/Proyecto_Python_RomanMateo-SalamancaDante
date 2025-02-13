@@ -1,52 +1,183 @@
 {
-    "rutas": [
-        {
-            "Java": [
-                "Introducción a la programación",
-                "Python",
-                "HTML/CSS",
-                "Scrum",
-                "Git",
-                "JavaScript",
-                "Introducción al backend",
-                "Introducción a las bases de datos",
-                "MySQL",
-                "Java",
-                "PostgreSQL",
-                "SpringBoot"
-            ]
+    "Java": {
+        "Introduccion a la programacion": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
         },
-        {
-            "NodeJS": [
-                "Introducción a la programación",
-                "Python",
-                "HTML/CSS",
-                "Scrum",
-                "Git",
-                "JavaScript",
-                "Introducción al backend",
-                "Introducción a las bases de datos",
-                "MongoDB",
-                "JavaScript",
-                "MySQL",
-                "Express"
-            ]
+        "Python": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
         },
-        {
-            ".Net": [
-                "Introducción a la programación",
-                "Python",
-                "HTML/CSS",
-                "Scrum",
-                "Git",
-                "JavaScript",
-                "Introducción al backend",
-                "Introducción a las bases de datos",
-                "MySQL",
-                "C#",
-                "PostgreSQL",
-                ".Net Core"
-            ]
+        "HTML/CSS": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Scrum": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Git": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "JavaScript": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Introduccion al backend": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Introduccion a las bases de datos": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "MySQL": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Java": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "PostgreSQL": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "SpringBoot": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
         }
-    ]
+    },
+    "NodeJS": {
+        "Introduccion a la programacion": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Python": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "HTML/CSS": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Scrum": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Git": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "JavaScript": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Introduccion al backend": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Introduccion a las bases de datos": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "MongoDB": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "MySQL": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Express": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        }
+    },
+    ".Net": {
+        "Introduccion a la programacion": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Python": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "HTML/CSS": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Scrum": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Git": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "JavaScript": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Introduccion al backend": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "Introduccion a las bases de datos": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "MySQL": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "C#": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        "PostgreSQL": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        },
+        ".Net Core": {
+            "proyecto": "",
+            "filtro": "",
+            "otros": ""
+        }
+    }
 }
